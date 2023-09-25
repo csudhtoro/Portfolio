@@ -1,0 +1,134 @@
+:root {
+    --navbar_color: #081624;
+    --main_color: #0A1828;
+    --main_color_offset: #081421;
+    --accent_color: #ad9047;
+    --secondary: #178582;
+    --secondary_offset: #1fb8b2;
+    --text_color: #dedede;
+    --dark_text_color: #696868;
+    --main_font: 'Roboto Slab', sans-serif;
+}
+
+body {
+    color: var(--text_color);
+    font-family: var(--main_font);
+    background-color: var(--main_color);
+    line-height: 1.3;
+} 
+
+p {
+    display: block;
+}
+
+.nav-brand {
+    display: flex;
+    color: var(--text_color);
+    text-decoration: none;
+    font-weight: 400;
+    transition: all 0.3s;
+    align-items: center;
+}
+
+.nav-brand:hover {
+    color: var(--accent_color);
+    
+}
+
+.nav-brand img {
+    border: 1px solid var(--navbar_color);
+}
+
+.nav-brand #brand-name {
+    font-size: 1.0rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-left: 0.7em;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text_color);
+    text-transform: uppercase;
+    transition: all 0.3;
+}
+
+.nav-link:hover {
+    color: var(--accent_color);
+}
+
+#cv-dwnld {
+    color: var(--accent_color);
+    background-color: transparent;
+    border: 1px solid var(--accent_color);
+    padding: .8em 1.50em .8em 1.50em;
+    line-height: 1;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-left: 15px;
+    transition: all 0.3s;
+} 
+
+#cv-dwnld:hover {
+    box-shadow: 3px 3px 0 0 var(--accent_color);
+    transform: translate(-4px, -4px)
+}
+
+#intro {
+    /* background: linear-gradient(to right, rgb(10,24,40,.8),rgb(8,20,33,.8)),url(images\background.png);
+    background-position: center;
+    height: 150vh;
+    min-height: 10rem;
+    max-height: 120rem;
+    position: relative; */
+}
+
+/* #greeting {
+    color: var(--accent_color);
+    text-transform: uppercase;
+    font-size: 3.3rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.greeting-info {
+    margin: 3rem auto 0 auto;
+    max-width: 40rem;
+}
+
+.greeting-text {
+    font-size: 1.4rem;
+    text-align: center;
+    width: 100%;
+    line-height: 1.2;
+} */
+
+#intro-container {
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+#intro-container .greeting {
+    font-size: 3.0rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: var(--accent_color);
+    text-align: center;
+}
+
+#intro-container .intro-text {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    width: 100%;
+    text-align: center;
+}
+
+#intro-container .greeting-container {
+
+}
