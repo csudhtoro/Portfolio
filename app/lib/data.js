@@ -2,9 +2,12 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import { HiCode } from "react-icons/hi";
+import QuantumImg from "@/public/Quantum_SS.PNG";
+import playPalImg from "@/public/playPal_SS.PNG";
+import FusionTVImg from "@/public/FusionTV_SS.png";
+import NymsImg from "@/public/Nyms_SS.png";
 import rationImg from "@/public/ration_screen.PNG";
 import portfolioImg from "@/public/portfolio_screen.PNG";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -35,57 +38,109 @@ export const links = [
 
 export const experiencesData = [
   {
-    company: "ABC Interactive",
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    company: "JANUS et Cie",
+    title: "Programmer",
+    location: "Santa Fe Springs, California",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a full-stack developer for while completing my education",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021"
+    date: "2014 - 2018"
   },
 
   {
-    company: "Dribble Automotive",
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    company: "CSUF",
+    title: "Graduated California State University, Fullerton",
+    location: "Fullerton, California",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "After 3 years, I completed my studies after at the end of Fall 2018 and obtained my Bachelor of Science degree in Computer Science, with a concentration is Software Engineering.",
     icon: React.createElement(LuGraduationCap),
-    date: "2015-2019"
+    date: "2015-2018"
   },
 
   {
-    company: "HardTech",
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    company: "JANUS et Cie",
+    title: "Senior Programmer",
+    location: "Santa Fe Springs, California",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(HiCode),
+      "After graduation, I continued my role as a full-stack senior programmer ",
+    icon: React.createElement(CgWorkAlt),
     date: "2021 - present"
   }
 ];
 
 export const projectsData = [
   {
+    title: "playPal",
+    description:
+      "Blog Yada Yada Yada offering a convenient way to save and organize your favorites. etc etc etc. ",
+    tags: [
+      "React",
+      "Next.JS",
+      "Next-Auth",
+      "Firebase",
+      "TailWind CSS",
+      "Framer Motion",
+      "MapBox"
+    ],
+    imageUrl: playPalImg
+  },
+  {
+    title: "Quantum",
+    description:
+      "Blog Yada Yada Yada offering a convenient way to save and organize your favorites. etc etc etc. ",
+    tags: [
+      "React",
+      "Next.JS",
+      "Next-Auth",
+      "Prisma",
+      "Mongodb",
+      "TailWind CSS",
+      "React Quill"
+    ],
+    imageUrl: QuantumImg
+  },
+
+  {
+    title: "FusionTV",
+    description:
+      "Android app designed to provide detailed information about your favorite tv shows and offering a convenient way to save and organize your favorites.",
+    tags: [
+      "Java",
+      "Android Studio",
+      "Firebase",
+      "Material Design",
+      "ViewModel",
+      "Gson"
+    ],
+    imageUrl: FusionTVImg
+  },
+  {
+    title: "Nyms",
+    description:
+      "A word guessing game in which players use their wit and parts of speech to reveal the secret word.",
+    tags: [
+      "Java",
+      "Android Studio",
+      "Material Design",
+      "ViewModel",
+      "Rounded Corner Progress Bar"
+    ],
+    imageUrl: NymsImg
+  },
+  {
+    title: "Portfolio",
+    description:
+      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "clsx"],
+    imageUrl: portfolioImg
+  },
+
+  {
     title: "Ration",
     description:
       "A fully responsive front-end project ideal for a food delivery service website. It features filtering, routing and shopping cart and search functionalities.",
     tags: ["React", "React Router V6", "Framer Motion", "Tailwind"],
     imageUrl: rationImg
-  },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: portfolioImg
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg
   }
 ];
 
@@ -134,6 +189,26 @@ export const skillsData = [
       </svg>
     ),
     name: "Java"
+  },
+  {
+    icon: (
+      <svg
+        class="h-12"
+        xmlns="http://www.w3.org/2000/svg"
+        x="0px"
+        y="0px"
+        width="60"
+        height="60"
+        viewBox="0 0 48 48"
+      >
+        <path fill="#ffd600" d="M6,42V6h36v36H6z"></path>
+        <path
+          fill="#000001"
+          d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"
+        ></path>
+      </svg>
+    ),
+    name: "JavaScript"
   },
 
   {
@@ -186,27 +261,6 @@ export const skillsData = [
       </svg>
     ),
     name: "CSS"
-  },
-
-  {
-    icon: (
-      <svg
-        class="h-12"
-        xmlns="http://www.w3.org/2000/svg"
-        x="0px"
-        y="0px"
-        width="60"
-        height="60"
-        viewBox="0 0 48 48"
-      >
-        <path fill="#ffd600" d="M6,42V6h36v36H6z"></path>
-        <path
-          fill="#000001"
-          d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"
-        ></path>
-      </svg>
-    ),
-    name: "JavaScript"
   },
 
   {
@@ -325,17 +379,45 @@ export const skillsData = [
         viewBox="0 0 48 48"
       >
         <path
-          fill="#0277BD"
-          d="M24.047,5c-1.555,0.005-2.633,0.142-3.936,0.367c-3.848,0.67-4.549,2.077-4.549,4.67V14h9v2H15.22h-4.35c-2.636,0-4.943,1.242-5.674,4.219c-0.826,3.417-0.863,5.557,0,9.125C5.851,32.005,7.294,34,9.931,34h3.632v-5.104c0-2.966,2.686-5.896,5.764-5.896h7.236c2.523,0,5-1.862,5-4.377v-8.586c0-2.439-1.759-4.263-4.218-4.672C27.406,5.359,25.589,4.994,24.047,5z M19.063,9c0.821,0,1.5,0.677,1.5,1.502c0,0.833-0.679,1.498-1.5,1.498c-0.837,0-1.5-0.664-1.5-1.498C17.563,9.68,18.226,9,19.063,9z"
+          fill="#7cb342"
+          d="M12 29c0 1.1-.9 2-2 2s-2-.9-2-2v-9c0-1.1.9-2 2-2s2 .9 2 2V29zM40 29c0 1.1-.9 2-2 2s-2-.9-2-2v-9c0-1.1.9-2 2-2s2 .9 2 2V29zM22 40c0 1.1-.9 2-2 2s-2-.9-2-2v-9c0-1.1.9-2 2-2s2 .9 2 2V40zM30 40c0 1.1-.9 2-2 2s-2-.9-2-2v-9c0-1.1.9-2 2-2s2 .9 2 2V40z"
         ></path>
         <path
-          fill="#FFC107"
-          d="M23.078,43c1.555-0.005,2.633-0.142,3.936-0.367c3.848-0.67,4.549-2.077,4.549-4.67V34h-9v-2h9.343h4.35c2.636,0,4.943-1.242,5.674-4.219c0.826-3.417,0.863-5.557,0-9.125C41.274,15.995,39.831,14,37.194,14h-3.632v5.104c0,2.966-2.686,5.896-5.764,5.896h-7.236c-2.523,0-5,1.862-5,4.377v8.586c0,2.439,1.759,4.263,4.218,4.672C19.719,42.641,21.536,43.006,23.078,43z M28.063,39c-0.821,0-1.5-0.677-1.5-1.502c0-0.833,0.679-1.498,1.5-1.498c0.837,0,1.5,0.664,1.5,1.498C29.563,38.32,28.899,39,28.063,39z"
+          fill="#7cb342"
+          d="M14 18v15c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V18H14zM24 8c-6 0-9.7 3.6-10 8h20C33.7 11.6 30 8 24 8zM20 13.6c-.6 0-1-.4-1-1 0-.6.4-1 1-1s1 .4 1 1C21 13.1 20.6 13.6 20 13.6zM28 13.6c-.6 0-1-.4-1-1 0-.6.4-1 1-1s1 .4 1 1C29 13.1 28.6 13.6 28 13.6z"
+        ></path>
+        <path
+          fill="#7cb342"
+          d="M28.3 10.5c-.2 0-.4-.1-.6-.2-.5-.3-.6-.9-.3-1.4l1.7-2.5c.3-.5.9-.6 1.4-.3.5.3.6.9.3 1.4l-1.7 2.5C29 10.3 28.7 10.5 28.3 10.5zM19.3 10.1c-.3 0-.7-.2-.8-.5l-1.3-2.1c-.3-.5-.2-1.1.3-1.4.5-.3 1.1-.2 1.4.3l1.3 2.1c.3.5.2 1.1-.3 1.4C19.7 10 19.5 10.1 19.3 10.1z"
         ></path>
       </svg>
     ),
-    name: "Python"
+    name: "Android"
   },
+
+  // {
+  //   icon: (
+  //     <svg
+  //       class="h-12"
+  //       xmlns="http://www.w3.org/2000/svg"
+  //       x="0px"
+  //       y="0px"
+  //       width="60"
+  //       height="60"
+  //       viewBox="0 0 48 48"
+  //     >
+  //       <path
+  //         fill="#0277BD"
+  //         d="M24.047,5c-1.555,0.005-2.633,0.142-3.936,0.367c-3.848,0.67-4.549,2.077-4.549,4.67V14h9v2H15.22h-4.35c-2.636,0-4.943,1.242-5.674,4.219c-0.826,3.417-0.863,5.557,0,9.125C5.851,32.005,7.294,34,9.931,34h3.632v-5.104c0-2.966,2.686-5.896,5.764-5.896h7.236c2.523,0,5-1.862,5-4.377v-8.586c0-2.439-1.759-4.263-4.218-4.672C27.406,5.359,25.589,4.994,24.047,5z M19.063,9c0.821,0,1.5,0.677,1.5,1.502c0,0.833-0.679,1.498-1.5,1.498c-0.837,0-1.5-0.664-1.5-1.498C17.563,9.68,18.226,9,19.063,9z"
+  //       ></path>
+  //       <path
+  //         fill="#FFC107"
+  //         d="M23.078,43c1.555-0.005,2.633-0.142,3.936-0.367c3.848-0.67,4.549-2.077,4.549-4.67V34h-9v-2h9.343h4.35c2.636,0,4.943-1.242,5.674-4.219c0.826-3.417,0.863-5.557,0-9.125C41.274,15.995,39.831,14,37.194,14h-3.632v5.104c0,2.966-2.686,5.896-5.764,5.896h-7.236c-2.523,0-5,1.862-5,4.377v8.586c0,2.439,1.759,4.263,4.218,4.672C19.719,42.641,21.536,43.006,23.078,43z M28.063,39c-0.821,0-1.5-0.677-1.5-1.502c0-0.833,0.679-1.498,1.5-1.498c0.837,0,1.5,0.664,1.5,1.498C29.563,38.32,28.899,39,28.063,39z"
+  //       ></path>
+  //     </svg>
+  //   ),
+  //   name: "Python"
+  // },
 
   {
     icon: (
@@ -366,61 +448,33 @@ export const skillsData = [
     name: "React"
   },
 
-  {
-    icon: (
-      <svg
-        class="h-12"
-        xmlns="http://www.w3.org/2000/svg"
-        x="0px"
-        y="0px"
-        width="60"
-        height="60"
-        viewBox="0 0 48 48"
-      >
-        <path
-          fill="#7cb342"
-          d="M12 29c0 1.1-.9 2-2 2s-2-.9-2-2v-9c0-1.1.9-2 2-2s2 .9 2 2V29zM40 29c0 1.1-.9 2-2 2s-2-.9-2-2v-9c0-1.1.9-2 2-2s2 .9 2 2V29zM22 40c0 1.1-.9 2-2 2s-2-.9-2-2v-9c0-1.1.9-2 2-2s2 .9 2 2V40zM30 40c0 1.1-.9 2-2 2s-2-.9-2-2v-9c0-1.1.9-2 2-2s2 .9 2 2V40z"
-        ></path>
-        <path
-          fill="#7cb342"
-          d="M14 18v15c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V18H14zM24 8c-6 0-9.7 3.6-10 8h20C33.7 11.6 30 8 24 8zM20 13.6c-.6 0-1-.4-1-1 0-.6.4-1 1-1s1 .4 1 1C21 13.1 20.6 13.6 20 13.6zM28 13.6c-.6 0-1-.4-1-1 0-.6.4-1 1-1s1 .4 1 1C29 13.1 28.6 13.6 28 13.6z"
-        ></path>
-        <path
-          fill="#7cb342"
-          d="M28.3 10.5c-.2 0-.4-.1-.6-.2-.5-.3-.6-.9-.3-1.4l1.7-2.5c.3-.5.9-.6 1.4-.3.5.3.6.9.3 1.4l-1.7 2.5C29 10.3 28.7 10.5 28.3 10.5zM19.3 10.1c-.3 0-.7-.2-.8-.5l-1.3-2.1c-.3-.5-.2-1.1.3-1.4.5-.3 1.1-.2 1.4.3l1.3 2.1c.3.5.2 1.1-.3 1.4C19.7 10 19.5 10.1 19.3 10.1z"
-        ></path>
-      </svg>
-    ),
-    name: "Android"
-  },
-
-  {
-    icon: (
-      <svg
-        class="h-12"
-        xmlns="http://www.w3.org/2000/svg"
-        x="0px"
-        y="0px"
-        width="60"
-        height="60"
-        viewBox="0 0 48 48"
-      >
-        <polygon fill="#40c4ff" points="26,4 6,24 12,30 38,4"></polygon>
-        <polygon fill="#40c4ff" points="38,22 27,33 21,27 26,22"></polygon>
-        <rect
-          width="8.485"
-          height="8.485"
-          x="16.757"
-          y="28.757"
-          fill="#03a9f4"
-          transform="rotate(-45.001 21 33)"
-        ></rect>
-        <polygon fill="#01579b" points="38,44 26,44 21,39 27,33"></polygon>
-        <polygon fill="#084994" points="21,39 30,36 27,33"></polygon>
-      </svg>
-    ),
-    name: "Flutter"
-  },
+  // {
+  //   icon: (
+  //     <svg
+  //       class="h-12"
+  //       xmlns="http://www.w3.org/2000/svg"
+  //       x="0px"
+  //       y="0px"
+  //       width="60"
+  //       height="60"
+  //       viewBox="0 0 48 48"
+  //     >
+  //       <polygon fill="#40c4ff" points="26,4 6,24 12,30 38,4"></polygon>
+  //       <polygon fill="#40c4ff" points="38,22 27,33 21,27 26,22"></polygon>
+  //       <rect
+  //         width="8.485"
+  //         height="8.485"
+  //         x="16.757"
+  //         y="28.757"
+  //         fill="#03a9f4"
+  //         transform="rotate(-45.001 21 33)"
+  //       ></rect>
+  //       <polygon fill="#01579b" points="38,44 26,44 21,39 27,33"></polygon>
+  //       <polygon fill="#084994" points="21,39 30,36 27,33"></polygon>
+  //     </svg>
+  //   ),
+  //   name: "Flutter"
+  // },
 
   {
     icon: (
@@ -606,39 +660,6 @@ export const skillsData = [
     ),
     name: "MS SQL Server"
   },
-
-  {
-    icon: (
-      <svg
-        class="h-12"
-        xmlns="http://www.w3.org/2000/svg"
-        x="0px"
-        y="0px"
-        width="60"
-        height="60"
-        viewBox="0 0 48 48"
-      >
-        <path
-          fill="#ff8f00"
-          d="M8,37L23.234,8.436c0.321-0.602,1.189-0.591,1.494,0.02L30,19L8,37z"
-        ></path>
-        <path
-          fill="#ffa000"
-          d="M8,36.992l5.546-34.199c0.145-0.895,1.347-1.089,1.767-0.285L26,22.992L8,36.992z"
-        ></path>
-        <path
-          fill="#ff6f00"
-          d="M8.008 36.986L8.208 36.829 25.737 22.488 20.793 13.012z"
-        ></path>
-        <path
-          fill="#ffc400"
-          d="M8,37l26.666-25.713c0.559-0.539,1.492-0.221,1.606,0.547L40,37l-15,8.743 c-0.609,0.342-1.352,0.342-1.961,0L8,37z"
-        ></path>
-      </svg>
-    ),
-    name: "Firebase"
-  },
-
   {
     icon: (
       <svg
