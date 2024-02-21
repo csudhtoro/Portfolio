@@ -5,7 +5,7 @@ import Image from "next/image";
 import headshot from "@/public/headshot2.png";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
@@ -98,7 +98,7 @@ export default function Intro() {
 
         <a
           className="group text-sm sm:text-sm bg-white flex items-center justify-center px-7 py-3 gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 cursor-pointer borderBlack/10 transition"
-          href="/Dana_Shorts_Resume.pdf"
+          href="/DanaShortsResume.pdf"
           download={true}
         >
           Resume{" "}

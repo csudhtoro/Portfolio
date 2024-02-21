@@ -1,7 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import { HiCode } from "react-icons/hi";
 import QuantumImg from "@/public/Quantum_SS.PNG";
 import playPalImg from "@/public/playPal_SS.PNG";
 import FusionTVImg from "@/public/FusionTV_SS.png";
@@ -39,10 +38,19 @@ export const links = [
 export const experiencesData = [
   {
     company: "JANUS et Cie",
+    title: "Warranty Account Specialist",
+    location: "Santa Fe Springs, California",
+    description:
+      "I worked as a Warranty Account Specialist before a promotion to Programmer and beginning my formal education.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2010 - 2014"
+  },
+  {
+    company: "JANUS et Cie",
     title: "Programmer",
     location: "Santa Fe Springs, California",
     description:
-      "I worked as a full-stack developer for while completing my education",
+      "After advancing to the position of Programmer, I contributed to the development of a proprietary CRM application while concurrently pursuing my formal education.",
     icon: React.createElement(CgWorkAlt),
     date: "2014 - 2018"
   },
@@ -52,7 +60,7 @@ export const experiencesData = [
     title: "Graduated California State University, Fullerton",
     location: "Fullerton, California",
     description:
-      "After 3 years, I completed my studies after at the end of Fall 2018 and obtained my Bachelor of Science degree in Computer Science, with a concentration is Software Engineering.",
+      "After a three-year journey, I successfully concluded my studies in the fall of 2018, achieving a Bachelor of Science degree in Computer Science with a specialization in Software Engineering.",
     icon: React.createElement(LuGraduationCap),
     date: "2015-2018"
   },
@@ -62,9 +70,9 @@ export const experiencesData = [
     title: "Senior Programmer",
     location: "Santa Fe Springs, California",
     description:
-      "After graduation, I continued my role as a full-stack senior programmer ",
+      "Following graduation, I transitioned into an elevated role as a full-stack Programmer, where I continued my contributions in software development.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - present"
+    date: "2018 - present"
   }
 ];
 
@@ -72,7 +80,7 @@ export const projectsData = [
   {
     title: "playPal",
     description:
-      "Blog Yada Yada Yada offering a convenient way to save and organize your favorites. etc etc etc. ",
+      "This Next.js app empowers users to create posts and make connections with like-minded individuals seeking partnership for physical activities.",
     tags: [
       "React",
       "Next.JS",
@@ -82,12 +90,13 @@ export const projectsData = [
       "Framer Motion",
       "MapBox"
     ],
-    imageUrl: playPalImg
+    imageUrl: playPalImg,
+    url: "https://ration.vercel.app/"
   },
   {
     title: "Quantum",
     description:
-      "Blog Yada Yada Yada offering a convenient way to save and organize your favorites. etc etc etc. ",
+      "This blog application utilizes Next.js 13 (App Router & Server Actions) to efficiently manage page transitions and dynamic routing.",
     tags: [
       "React",
       "Next.JS",
@@ -97,7 +106,8 @@ export const projectsData = [
       "TailWind CSS",
       "React Quill"
     ],
-    imageUrl: QuantumImg
+    imageUrl: QuantumImg,
+    url: "https://ration.vercel.app/"
   },
 
   {
@@ -106,13 +116,14 @@ export const projectsData = [
       "Android app designed to provide detailed information about your favorite tv shows and offering a convenient way to save and organize your favorites.",
     tags: [
       "Java",
-      "Android Studio",
+      "Android SDK",
       "Firebase",
       "Material Design",
       "ViewModel",
       "Gson"
     ],
-    imageUrl: FusionTVImg
+    imageUrl: FusionTVImg,
+    url: "https://github.com/csudhtoro/FusionTV"
   },
   {
     title: "Nyms",
@@ -120,19 +131,21 @@ export const projectsData = [
       "A word guessing game in which players use their wit and parts of speech to reveal the secret word.",
     tags: [
       "Java",
-      "Android Studio",
+      "Android SDK",
       "Material Design",
       "ViewModel",
       "Rounded Corner Progress Bar"
     ],
-    imageUrl: NymsImg
+    imageUrl: NymsImg,
+    url: "https://github.com/csudhtoro/Nyms"
   },
   {
     title: "Portfolio",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Personal portfolio site to showcase my experience and skills as a Software Developer.",
     tags: ["React", "Next.js", "TypeScript", "Tailwind", "clsx"],
-    imageUrl: portfolioImg
+    imageUrl: portfolioImg,
+    url: "https://ration.vercel.app/"
   },
 
   {
@@ -140,7 +153,8 @@ export const projectsData = [
     description:
       "A fully responsive front-end project ideal for a food delivery service website. It features filtering, routing and shopping cart and search functionalities.",
     tags: ["React", "React Router V6", "Framer Motion", "Tailwind"],
-    imageUrl: rationImg
+    imageUrl: rationImg,
+    url: "https://ration.vercel.app/"
   }
 ];
 
