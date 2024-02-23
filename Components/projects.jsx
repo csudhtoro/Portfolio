@@ -9,7 +9,7 @@ import { useActiveSectionContext } from "./context/active-section-context";
 import { FaChevronUp, FaChevronDown } from "react-icons/fa";
 
 export default function Projects() {
-  const [showMoreProjs, setShowMoreProjs] = useState(false);
+  const [showMoreProjects, setShowMoreProjects] = useState(false);
 
   const { ref, inView } = useInView({
     threshold: 0.5
@@ -38,7 +38,7 @@ export default function Projects() {
           ))}
         </div>
         <div className="w-fit mx-auto my-3 sm:my-8">
-          {showMoreProjs ? (
+          {showMoreProjects ? (
             minorProjectsData.map((project, index) => (
               <React.Fragment key={index}>
                 <Project {...project} />
@@ -49,22 +49,25 @@ export default function Projects() {
           )}
         </div>
         <div className="w-fit mx-auto my-3 sm:my-8 group outline-none focus:scale-105 hover:scale-105 active:scale-105 cursor-pointer borderBlack/10 transition">
-          <button className="" onClick={() => setShowMoreProjs(!showMoreProjs)}>
-            {showMoreProjs ? (
-              <div className="text-gray-900/50 text-sm mb-8">
+          <button
+            className=""
+            onClick={() => setShowMoreProjects(!showMoreProjects)}
+          >
+            {showMoreProjects ? (
+              <div className=" text-sm mb-8">
                 <div className="w-full">
                   <FaChevronUp
                     size={30}
-                    className="mx-auto group-hover:-translate-y-1 transition opacity-70"
+                    className="text-gray-900/50 mx-auto group-hover:-translate-y-1 transition opacity-70 dark:text-white/70"
                   />
                 </div>
               </div>
             ) : (
-              <div className="text-gray-900/50 text-sm mb-8">
+              <div className="text-sm mb-8">
                 <div className="w-full">
                   <FaChevronDown
                     size={30}
-                    className="mx-auto group-hover:translate-y-1 transition opacity-70"
+                    className="text-gray-900/50 mx-auto group-hover:translate-y-1 transition opacity-70 dark:text-white/70"
                   />
                 </div>
               </div>

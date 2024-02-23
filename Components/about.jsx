@@ -5,6 +5,7 @@ import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useActiveSectionContext } from "./context/active-section-context";
+import { useTheme } from "next-themes";
 
 export default function About() {
   const { ref, inView } = useInView({

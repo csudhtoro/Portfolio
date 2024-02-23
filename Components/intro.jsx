@@ -86,10 +86,9 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group text-xs sm:text-sm bg-gray-900 text-white px-7 py-3 flex items-center justify-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group text-xs sm:text-sm bg-gray-900 text-white px-7 py-3 flex items-center justify-center gap-2 rounded-full outline-none transition-all focus:scale-110 hover:scale-110 active:scale-105 hover:bg-gray-950 cursor-pointer disabled:bg-opacity-65 disabled:scale-110 dark:text-gray-900 dark:bg-white dark-bg-opacity-10"
           onClick={() => {
             setActiveSection("Contact");
-            // setTimeOfLastClick(Date.now());
           }}
         >
           Say Hello!{" "}
@@ -97,7 +96,7 @@ export default function Intro() {
         </Link>
 
         <a
-          className="group text-sm sm:text-sm bg-white flex items-center justify-center px-7 py-3 gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 cursor-pointer borderBlack/10 transition"
+          className="group text-sm sm:text-sm bg-white flex items-center justify-center px-7 py-3 gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 cursor-pointer borderBlack transition dark:bg-white/10 dark:text-white/60"
           href="/DanaShortsResume.pdf"
           download={true}
         >
