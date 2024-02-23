@@ -78,7 +78,7 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "playPal",
+    title: "PlayPal",
     description:
       "This Next.js app empowers users to create posts and make connections with like-minded individuals seeking partnership for physical activities.",
     tags: [
@@ -138,22 +138,24 @@ export const projectsData = [
     ],
     imageUrl: NymsImg,
     url: "https://github.com/csudhtoro/Nyms"
-  },
-  {
-    title: "Portfolio",
-    description:
-      "Personal portfolio site to showcase my experience and skills as a Software Developer.",
-    tags: ["React", "Next.js", "TypeScript", "Tailwind", "clsx"],
-    imageUrl: portfolioImg,
-    url: "https://ration.vercel.app/"
-  },
+  }
+];
 
+export const minorProjectsData = [
   {
     title: "Ration",
     description:
       "A fully responsive front-end project ideal for a food delivery service website. It features filtering, routing and shopping cart and search functionalities.",
     tags: ["React", "React Router V6", "Framer Motion", "Tailwind"],
     imageUrl: rationImg,
+    url: "https://ration.vercel.app/"
+  },
+  {
+    title: "Portfolio",
+    description:
+      "Personal portfolio site to showcase my experience and skills as a Software Developer.",
+    tags: ["React", "Next.js", "Tailwind", "clsx"],
+    imageUrl: portfolioImg,
     url: "https://ration.vercel.app/"
   }
 ];

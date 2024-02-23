@@ -33,17 +33,16 @@ export default function About() {
         concepts into refined, operational, and streamlined code. Proficient in
         foundational languages such as{" "}
         <span className="underline">Java and JavaScript</span>, my versatility
-        extends to encompassing a variety of languages, frameworks, and
-        development tools. Thriving within the dynamic tech landscape, my
-        curiosity propels me to consistently explore trends and remain abreast
-        of cutting-edge industry advancements.
+        extends to encompassing a variety of other languages, frameworks, and
+        development tools. Thriving within the tech landscape, my curiosity
+        drives me to consistently explore trends and industry advancements.
       </p>
 
       <p>
         I take pride in my ability to tackle{" "}
-        <span className="font-medium"> complex problems </span> and collaborate
-        effectively in a team environment. Whether it's building web
-        applications, mobile applications, or optimizing database performance,{" "}
+        <span className="font-medium"> complex problems </span> and to
+        collaborate effectively in a team environment. Whether it's building
+        apps, or optimizing database performance,{" "}
         <span className="font-bold">
           {" "}
           I'm dedicated to delivering solutions
