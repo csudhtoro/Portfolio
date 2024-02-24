@@ -107,7 +107,7 @@ export const projectsData = [
       "React Quill"
     ],
     imageUrl: QuantumImg,
-    url: "https://ration.vercel.app/"
+    url: "https://quantum-topaz.vercel.app/"
   },
 
   {
