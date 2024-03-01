@@ -2,8 +2,15 @@
 
 import React, { useRef } from "react";
 import Image from "next/image";
-import { useScroll, motion, useTransform } from "framer-motion";
+//import { useScroll, motion, useTransform } from "framer-motion";
 import Link from "next/link";
+
+const { useScroll, motion, useTransform } = dynamic(
+  () => import("framer-motion"),
+  {
+    ssr: false
+  }
+);
 
 export default function Project({
   title,

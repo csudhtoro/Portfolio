@@ -2,7 +2,11 @@
 
 import React, { useEffect, useState } from "react";
 import { FiSun, FiMoon } from "react-icons/fi";
-import { useTheme } from "next-themes";
+//import { useTheme } from "next-themes";
+
+const useTheme = dynamic(() => import("next-themes"), {
+  ssr: false
+});
 
 const ThemeToggle = () => {
   const [mounted, setMounted] = useState(false);

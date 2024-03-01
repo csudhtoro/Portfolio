@@ -1,10 +1,18 @@
 "use client";
 
-import { motion } from "framer-motion";
+//import { motion } from "framer-motion";
 import { links } from "@/app/lib/data";
 import Link from "next/link";
-import clsx from "clsx";
+//import clsx from "clsx";
 import { useActiveSectionContext } from "./context/active-section-context";
+
+const motion = dynamic(() => import("framer-motion"), {
+  ssr: false
+});
+
+const clsx = dynamic(() => import("clsx"), {
+  ssr: false
+});
 
 export default function Header() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =

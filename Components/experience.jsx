@@ -3,14 +3,25 @@
 import React, { useEffect } from "react";
 import SectionHeading from "./section-heading";
 import { experiencesData } from "@/app/lib/data";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement
-} from "react-vertical-timeline-component";
+//import {
+//  VerticalTimeline,
+//  VerticalTimelineElement
+//} from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { useInView } from "react-intersection-observer";
+//import { useInView } from "react-intersection-observer";
 import { useActiveSectionContext } from "./context/active-section-context";
-import { useTheme } from "next-themes";
+//import { useTheme } from "next-themes";
+
+const { VerticalTimeline, VerticalTimelineElement } = dynamic(
+  () => import("react-vertical-timeline-component"),
+  { ssr: false }
+);
+const useInView = dynamic(() => import("react-intersection-observer"), {
+  ssr: false
+});
+const useTheme = dynamic(() => import("next-themes"), {
+  ssr: false
+});
 
 export default function Experience() {
   const { ref, inView } = useInView({
