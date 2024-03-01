@@ -2,12 +2,19 @@
 
 import React, { useEffect } from "react";
 import SectionHeading from "./section-heading";
-import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+//import { motion } from "framer-motion";
+//import { useInView } from "react-intersection-observer";
 import { useActiveSectionContext } from "./context/active-section-context";
 import { sendEmail } from "./actions/sendEmail";
 import SubmitBtn from "./submit-btn";
-import toast from "react-hot-toast";
+import dynamic from "next/dynamic";
+//import toast from "react-hot-toast";
+
+const motion = dynamic(() => import("framer-motion"), { ssr: false });
+const useInView = dynamic(() => import("react-intersection-observer"), {
+  ssr: false
+});
+const toast = dynamic(() => import("react-hot-toast"), { ssr: false });
 
 export default function Contact() {
   const { ref, inView } = useInView({
