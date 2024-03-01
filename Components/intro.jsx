@@ -10,6 +10,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 //import { useInView } from "react-intersection-observer";
 import { useActiveSectionContext } from "./context/active-section-context";
+import dynamic from "next/dynamic";
 
 const motion = dynamic(() => import("framer-motion"), {
   ssr: false

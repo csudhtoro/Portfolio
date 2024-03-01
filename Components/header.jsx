@@ -5,6 +5,7 @@ import { links } from "@/app/lib/data";
 import Link from "next/link";
 //import clsx from "clsx";
 import { useActiveSectionContext } from "./context/active-section-context";
+import dynamic from "next/dynamic";
 
 const motion = dynamic(() => import("framer-motion"), {
   ssr: false

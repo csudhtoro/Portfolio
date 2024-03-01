@@ -10,6 +10,7 @@ import { experiencesData } from "@/app/lib/data";
 import "react-vertical-timeline-component/style.min.css";
 //import { useInView } from "react-intersection-observer";
 import { useActiveSectionContext } from "./context/active-section-context";
+import dynamic from "next/dynamic";
 //import { useTheme } from "next-themes";
 
 const { VerticalTimeline, VerticalTimelineElement } = dynamic(

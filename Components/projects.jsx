@@ -7,6 +7,7 @@ import Project from "./project";
 //import { useInView } from "react-intersection-observer";
 import { useActiveSectionContext } from "./context/active-section-context";
 import { FaChevronUp, FaChevronDown } from "react-icons/fa";
+import dynamic from "next/dynamic";
 
 const useInView = dynamic(() => import("react-intersection-observer"), {
   ssr: false

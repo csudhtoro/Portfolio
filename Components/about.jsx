@@ -5,6 +5,7 @@ import SectionHeading from "./section-heading";
 //import { motion } from "framer-motion";
 //import { useInView } from "react-intersection-observer";
 import { useActiveSectionContext } from "./context/active-section-context";
+import dynamic from "next/dynamic";
 
 const motion = dynamic(() => import("framer-motion"), { ssr: false });
 const useInView = dynamic(() => import("react-intersection-observer"), {
