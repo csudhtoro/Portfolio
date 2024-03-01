@@ -18,7 +18,7 @@ const ThemeToggle = () => {
 
   return (
     <div
-      className="fixed bottom-5 right-5 bg-opacity-80 backdrop-blur-[0.5rem] hover:scale-[1.15] active:scale-105 transition-all z-20"
+      className="fixed bottom-5 right-5 bg-opacity-80 backdrop-blur-[0.5rem] hover:scale-[1.15] active:scale-105 transition-all z-20 cursor-pointer"
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
     >
       {theme === "dark" ? (

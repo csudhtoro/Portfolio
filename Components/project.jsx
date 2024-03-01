@@ -5,7 +5,14 @@ import Image from "next/image";
 import { useScroll, motion, useTransform } from "framer-motion";
 import Link from "next/link";
 
-export default function Project({ title, description, tags, imageUrl, url }) {
+export default function Project({
+  title,
+  description,
+  loginInfo,
+  tags,
+  imageUrl,
+  url
+}) {
   const ref = React.useRef();
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -31,6 +38,18 @@ export default function Project({ title, description, tags, imageUrl, url }) {
             <p className="text-sm mt-2 leading-relaxed text-gray-700 dark:text-white/70">
               {description}
             </p>
+            <div>
+              <ul className="pb-4 flex flex-col">
+                {loginInfo.map((info, index) => (
+                  <li
+                    className="text-sm mt-2 leading-relaxed text-gray-700 dark:text-white/70"
+                    key={index}
+                  >
+                    <p className="text-xs font-semibold">{info}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
               {tags.map((tag, index) => (
                 <li
