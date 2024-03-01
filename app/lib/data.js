@@ -4,7 +4,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import QuantumImg from "@/public/Quantum_SS.PNG";
 import playPalImg from "@/public/playPal_SS.PNG";
 import FusionTVImg from "@/public/FusionTV_SS.png";
-import NymsImg from "@/public/Nyms_SS.png";
+import NymsImg from "@/public/NYMS_SS.PNG";
 import rationImg from "@/public/ration_screen.PNG";
 import portfolioImg from "@/public/portfolio_screen.PNG";
 
@@ -60,7 +60,7 @@ export const experiencesData = [
     title: "Graduated California State University, Fullerton",
     location: "Fullerton, California",
     description:
-      "After a three-year journey, I successfully concluded my studies in the fall of 2018, achieving a Bachelor of Science degree in Computer Science with a specialization in Software Engineering.",
+      "After a three-year journey, I successfully concluded my studies in the fall of 2018, achieving a Bachelor of Science degree in Computer Science with a concentration in Software Engineering.",
     icon: React.createElement(LuGraduationCap),
     date: "2015-2018"
   },

@@ -53,7 +53,7 @@ export default function Intro() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ type: "spring", stiffness: 125, delay: 0.1 }}
           >
-            ✌
+            🖐🏾
           </motion.span>
         </div>
       </div>
@@ -63,20 +63,17 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Greetings, I'm Dana,</span> a seasoned
+        Hello, I'm
+        <span className="font-bold"> Dana,</span> a seasoned
         <span className="font-bold"> software developer</span> boasting
-        <span className="font-bold">
-          {" "}
-          a decade of experience in crafting technological solutions.{" "}
-        </span>
-        Proficient in both web and mobile development realms, my
-        <span className="italic"> expertise</span> lies in
+        <span className="font-bold"> a decade of experience </span>
+        in crafting technological solutions. I enjoy building both web and
+        mobile applications and <span> my focuses are</span>
         <span className="font-bold">
           <span className="underline"> React (Next.js)</span> and{" "}
           <span className="underline">Native Android</span>
         </span>{" "}
-        application development, where I thrive in delivering{" "}
-        <span className="font-bold">exceptional user experiences.</span>
+        application development.{" "}
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row item-center justify-center gap-2 px-[8.5rem] text-lg font-medium"

@@ -31,12 +31,12 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         As a dedicated software developer, I am committed to translating
-        concepts into refined, operational, and streamlined code. Proficient in
-        foundational languages such as{" "}
-        <span className="underline">Java and JavaScript</span>, my versatility
-        extends to encompassing a variety of other languages, frameworks, and
-        development tools. Thriving within the tech landscape, my curiosity
-        drives me to consistently explore trends and industry advancements.
+        concepts into refined, operational, and streamlined code. With expertise
+        in core languages including <span className="font-bold">Java</span> and{" "}
+        <span className="font-bold">JavaScript</span>, my versatility extends to
+        encompassing a variety of other languages, frameworks, and development
+        tools. Thriving within the tech landscape, my curiosity drives me to
+        consistently explore trends and industry advancements.
       </p>
 
       <p>
