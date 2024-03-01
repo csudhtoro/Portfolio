@@ -5,7 +5,7 @@ import { ThemeProvider, useTheme } from "next-themes";
 
 export default function Providers({ children }) {
   const [mounted, setMounted] = useState(false);
-  const { ThemeProvider, setTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
 
   useEffect(() => {
     setMounted(true);
