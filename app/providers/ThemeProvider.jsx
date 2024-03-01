@@ -10,7 +10,7 @@ const { ThemeProvider, useTheme } = dynamic(() => import("next-themes"), {
 
 export default function Providers({ children }) {
   const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
+  const { ThemeProvider, setTheme } = useTheme();
 
   useEffect(() => {
     setMounted(true);
