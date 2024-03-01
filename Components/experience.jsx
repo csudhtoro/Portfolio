@@ -8,7 +8,7 @@ import { experiencesData } from "@/app/lib/data";
 //  VerticalTimelineElement
 //} from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-//import { useInView } from "react-intersection-observer";
+import { useInView } from "react-intersection-observer";
 import { useActiveSectionContext } from "./context/active-section-context";
 import dynamic from "next/dynamic";
 //import { useTheme } from "next-themes";
@@ -17,9 +17,7 @@ const { VerticalTimeline, VerticalTimelineElement } = dynamic(
   () => import("react-vertical-timeline-component"),
   { ssr: false }
 );
-const useInView = dynamic(() => import("react-intersection-observer"), {
-  ssr: false
-});
+
 const useTheme = dynamic(() => import("next-themes"), {
   ssr: false
 });

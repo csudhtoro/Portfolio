@@ -3,16 +3,12 @@
 import React, { useEffect } from "react";
 import SectionHeading from "./section-heading";
 import { skillsData } from "@/app/lib/data";
-//import { useInView } from "react-intersection-observer";
+import { useInView } from "react-intersection-observer";
 import { useActiveSectionContext } from "./context/active-section-context";
 import dynamic from "next/dynamic";
 //import { motion } from "framer-motion";
 
 const { motion } = dynamic(() => import("framer-motion"), {
-  ssr: false
-});
-
-const useInView = dynamic(() => import("react-intersection-observer"), {
   ssr: false
 });
 
