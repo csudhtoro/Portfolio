@@ -1,13 +1,8 @@
 "use client";
 
-import dynamic from "next/dynamic";
 import React, { useEffect, useState } from "react";
 import { FiSun, FiMoon } from "react-icons/fi";
-//import { useTheme } from "next-themes";
-
-const useTheme = dynamic(() => import("next-themes"), {
-  ssr: false
-});
+import { useTheme } from "next-themes";
 
 const ThemeToggle = () => {
   const [mounted, setMounted] = useState(false);

@@ -1,12 +1,7 @@
 "use client";
 
-import dynamic from "next/dynamic";
 import React, { useEffect, useState } from "react";
-//import { ThemeProvider, useTheme } from "next-themes";
-
-const { ThemeProvider, useTheme } = dynamic(() => import("next-themes"), {
-  ssr: false
-});
+import { ThemeProvider, useTheme } from "next-themes";
 
 export default function Providers({ children }) {
   const [mounted, setMounted] = useState(false);
