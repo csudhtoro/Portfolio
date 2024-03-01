@@ -68,7 +68,7 @@ export default function Intro() {
         <span className="font-bold"> software developer</span> boasting
         <span className="font-bold"> a decade of experience </span>
         in crafting technological solutions. I enjoy building both web and
-        mobile applications and <span> my focuses are</span>
+        mobile apps and <span> my focuses are</span>
         <span className="font-bold">
           <span className="underline"> React (Next.js)</span> and{" "}
           <span className="underline">Native Android</span>
