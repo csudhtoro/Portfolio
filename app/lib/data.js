@@ -152,7 +152,7 @@ export const minorProjectsData = [
     loginInfo: [],
     tags: ["React", "Next.js", "Tailwind CSS", "clsx", "Framer Motion"],
     imageUrl: portfolioImg,
-    url: "https://ration.vercel.app/"
+    url: "https://dana-shorts-dev.vercel.app/"
   },
   {
     title: "Ration",
@@ -161,7 +161,7 @@ export const minorProjectsData = [
     loginInfo: [],
     tags: ["React", "React Router V6", "Tailwind CSS"],
     imageUrl: rationImg,
-    url: "https://dana-shorts-dev.vercel.app/"
+    url: "https://ration.vercel.app/"
   }
 ];
 
