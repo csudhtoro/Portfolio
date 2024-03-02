@@ -8,7 +8,7 @@ import {
   Container,
   Preview,
   Section,
-  Text,
+  Text
 } from "@react-email/components";
 import { Tailwind } from "@react-email/tailwind";
 
@@ -16,7 +16,7 @@ export default function ContactFormEmail({ message, senderEmail }) {
   return (
     <Html>
       <Head />
-      <Preview>New Message from portfolio site</Preview>
+      <Preview>New message from portfolio site</Preview>
       <Tailwind>
         <Body className="bg-gray-100 text-black">
           <Container>

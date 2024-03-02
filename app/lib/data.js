@@ -1,12 +1,13 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { LuGraduationCap } from "react-icons/lu";
+import { MdWork } from "react-icons/md";
+import { SiNextdotjs, SiReact } from "react-icons/si";
 import QuantumImg from "@/public/Quantum_SS.PNG";
 import playPalImg from "@/public/playPal_SS.PNG";
 import FusionTVImg from "@/public/FusionTV_SS.png";
 import NymsImg from "@/public/NYMS_SS.PNG";
 import rationImg from "@/public/ration_screen.PNG";
 import portfolioImg from "@/public/portfolio_screen.PNG";
+import { FaGraduationCap } from "react-icons/fa";
 
 export const links = [
   {
@@ -38,12 +39,21 @@ export const links = [
 export const experiencesData = [
   {
     company: "JANUS et Cie",
-    title: "Warranty Account Specialist",
+    title: "Senior Programmer",
     location: "Santa Fe Springs, California",
     description:
-      "I worked as a Warranty Account Specialist before a promotion to Programmer and beginning my formal education.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2010 - 2014"
+      "Following graduation, I transitioned into an elevated role as a full-stack Programmer, where I continued my contributions in software development.",
+    icon: React.createElement(SiNextdotjs),
+    date: "2018 - present"
+  },
+  {
+    company: "CSUF",
+    title: "Graduated California State University, Fullerton",
+    location: "Fullerton, California",
+    description:
+      "After a three-year journey, I successfully concluded my studies in the fall of 2018, achieving a Bachelor of Science degree in Computer Science with a concentration in Software Engineering.",
+    icon: React.createElement(FaGraduationCap),
+    date: "2015-2018"
   },
   {
     company: "JANUS et Cie",
@@ -51,28 +61,17 @@ export const experiencesData = [
     location: "Santa Fe Springs, California",
     description:
       "After advancing to the position of Programmer, I contributed to the development of a proprietary CRM application while concurrently pursuing my formal education.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(SiReact),
     date: "2014 - 2018"
   },
-
-  {
-    company: "CSUF",
-    title: "Graduated California State University, Fullerton",
-    location: "Fullerton, California",
-    description:
-      "After a three-year journey, I successfully concluded my studies in the fall of 2018, achieving a Bachelor of Science degree in Computer Science with a concentration in Software Engineering.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2015-2018"
-  },
-
   {
     company: "JANUS et Cie",
-    title: "Senior Programmer",
+    title: "Warranty Account Specialist",
     location: "Santa Fe Springs, California",
     description:
-      "Following graduation, I transitioned into an elevated role as a full-stack Programmer, where I continued my contributions in software development.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2018 - present"
+      "I worked as a Warranty Account Specialist before a promotion to Programmer and beginning my formal education.",
+    icon: React.createElement(MdWork),
+    date: "2010 - 2014"
   }
 ];
 

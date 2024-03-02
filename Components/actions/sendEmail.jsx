@@ -15,13 +15,13 @@ export const sendEmail = async (formData) => {
 
   if (!validateString(senderEmail, 500)) {
     return {
-      error: "Invalid sender email",
+      error: "Invalid sender email"
     };
   }
 
   if (!validateString(message, 5000)) {
     return {
-      error: "Invalid message",
+      error: "Invalid message"
     };
   }
 
@@ -30,16 +30,16 @@ export const sendEmail = async (formData) => {
     data = await resend.emails.send({
       from: "Contact Form <onboarding@resend.dev>",
       to: "dana.shortsjr@gmail.com",
-      subject: "Testing resend email",
+      subject: "Message from Portfolio Contact Form",
       reply_to: senderEmail,
-      react: React.createElement(ContactFormEmail, message, senderEmail),
+      react: <ContactFormEmail message={message} senderEmail={senderEmail} />
     });
   } catch (error) {
     return {
-      error: getErrorMessage(error),
+      error: getErrorMessage(error)
     };
   }
   return {
-    data,
+    data
   };
 };

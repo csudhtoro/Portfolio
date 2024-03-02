@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -10,6 +10,7 @@ import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
 
 export default function Contact() {
+  const formRef = useRef();
   const { ref, inView } = useInView({
     threshold: 0.8
   });
@@ -49,6 +50,7 @@ export default function Contact() {
       </p>
 
       <form
+        ref={formRef}
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
@@ -57,7 +59,8 @@ export default function Contact() {
             toast.error(error);
             return;
           }
-          toast.success;
+          toast.success("Email Sent!");
+          formRef.current.reset();
         }}
       >
         <input
