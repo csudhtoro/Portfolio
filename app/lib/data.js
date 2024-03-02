@@ -161,7 +161,7 @@ export const minorProjectsData = [
     loginInfo: [],
     tags: ["React", "React Router V6", "Tailwind CSS"],
     imageUrl: rationImg,
-    url: "https://ration.vercel.app/"
+    url: "https://dana-shorts-dev.vercel.app/"
   }
 ];
 
