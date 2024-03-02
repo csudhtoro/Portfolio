@@ -92,7 +92,7 @@ export const projectsData = [
       "React Quill"
     ],
     imageUrl: QuantumImg,
-    url: "https://quantum-topaz.vercel.app/"
+    url: "https://quantum-blogspace.vercel.app/"
   },
   {
     title: "PlayPal",
@@ -109,7 +109,7 @@ export const projectsData = [
       "MapBox"
     ],
     imageUrl: playPalImg,
-    url: "https://playpal-psi.vercel.app/"
+    url: "https://playpal-connect.vercel.app/"
   },
   {
     title: "FusionTV",
