@@ -39,10 +39,10 @@ export const links = [
 export const experiencesData = [
   {
     company: "JANUS et Cie",
-    title: "Senior Programmer",
+    title: "Software Engineer",
     location: "Santa Fe Springs, California",
     description:
-      "Following graduation, I transitioned into an elevated role as a full-stack Programmer, where I continued my contributions in software development.",
+      "Following graduation, I transitioned into an elevated role as a full-stack Engineer, where I continued my contributions in software development.",
     icon: React.createElement(SiNextdotjs),
     date: "2018 - present"
   },
