@@ -116,7 +116,10 @@ export const projectsData = [
     ],
     imageUrl: FusionTVImg,
     url: "https://github.com/csudhtoro/FusionTV"
-  },
+  }
+];
+
+export const minorProjectsData = [
   {
     title: "Nyms",
     description:
@@ -131,10 +134,7 @@ export const projectsData = [
     ],
     imageUrl: NymsImg,
     url: "https://github.com/csudhtoro/Nyms"
-  }
-];
-
-export const minorProjectsData = [
+  },
   {
     title: "Portfolio",
     description:
