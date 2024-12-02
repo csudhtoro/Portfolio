@@ -38,15 +38,6 @@ export const links = [
 
 export const experiencesData = [
   {
-    company: "JANUS et Cie",
-    title: "Software Engineer",
-    location: "Santa Fe Springs, California",
-    description:
-      "Following graduation, I transitioned into an elevated role as a full-stack Engineer, where I continued my contributions in software development.",
-    icon: React.createElement(SiNextdotjs),
-    date: "2018 - present"
-  },
-  {
     company: "CSUF",
     title: "Graduated California State University, Fullerton",
     location: "Fullerton, California",
@@ -57,10 +48,10 @@ export const experiencesData = [
   },
   {
     company: "JANUS et Cie",
-    title: "Programmer",
+    title: "Software Developer",
     location: "Santa Fe Springs, California",
     description:
-      "After advancing to the position of Programmer, I contributed to the development of a proprietary CRM application while concurrently pursuing my formal education.",
+      "After advancing to the position of Developer, I contributed to the development of a proprietary CRM application while concurrently pursuing my formal education.",
     icon: React.createElement(SiReact),
     date: "2014 - 2018"
   },
