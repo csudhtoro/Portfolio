@@ -12,39 +12,39 @@ import { FaGraduationCap } from "react-icons/fa";
 export const links = [
   {
     name: "Home",
-    hash: "#home"
+    hash: "#home",
   },
   {
     name: "About",
-    hash: "#about"
+    hash: "#about",
   },
   {
     name: "Projects",
-    hash: "#projects"
+    hash: "#projects",
   },
   {
     name: "Skills",
-    hash: "#skills"
+    hash: "#skills",
   },
   {
     name: "Experience",
-    hash: "#experience"
+    hash: "#experience",
   },
   {
     name: "Contact",
-    hash: "#contact"
-  }
+    hash: "#contact",
+  },
 ];
 
 export const experiencesData = [
   {
     company: "JANUS et Cie",
-    title: "Software Developer",
+    title: "Software Engineer",
     location: "Santa Fe Springs, California",
     description:
-      "After advancing to the position of Developer, I contributed to the development of a proprietary CRM application while concurrently pursuing my formal education.",
+      "After advancing to the position of Software Engineer, I contributed to the development of a proprietary CRM application while concurrently pursuing my formal education.",
     icon: React.createElement(SiReact),
-    date: "2014 - Present"
+    date: "2014 - Present",
   },
   {
     company: "CSUF",
@@ -53,7 +53,7 @@ export const experiencesData = [
     description:
       "After a three-year journey, I successfully concluded my studies in the fall of 2018, achieving a Bachelor of Science degree in Computer Science with a concentration in Software Engineering.",
     icon: React.createElement(FaGraduationCap),
-    date: "2015-2018"
+    date: "2015-2018",
   },
   {
     company: "JANUS et Cie",
@@ -62,8 +62,8 @@ export const experiencesData = [
     description:
       "I worked as a Warranty Account Specialist before a promotion to Programmer and beginning my formal education.",
     icon: React.createElement(MdWork),
-    date: "2010 - 2014"
-  }
+    date: "2010 - 2014",
+  },
 ];
 
 export const projectsData = [
@@ -79,10 +79,10 @@ export const projectsData = [
       "Prisma",
       "Mongodb",
       "TailWind CSS",
-      "React Quill"
+      "React Quill",
     ],
     imageUrl: QuantumImg,
-    url: "https://quantum-blogspace.vercel.app/"
+    url: "https://quantum-blogspace.vercel.app/",
   },
   {
     title: "PlayPal",
@@ -96,10 +96,10 @@ export const projectsData = [
       "Firebase",
       "TailWind CSS",
       "Framer Motion",
-      "MapBox"
+      "MapBox",
     ],
     imageUrl: playPalImg,
-    url: "https://playpal-connect.vercel.app/"
+    url: "https://playpal-connect.vercel.app/",
   },
   {
     title: "FusionTV",
@@ -112,11 +112,11 @@ export const projectsData = [
       "Firebase",
       "Material Design",
       "ViewModel",
-      "Gson"
+      "Gson",
     ],
     imageUrl: FusionTVImg,
-    url: "https://github.com/csudhtoro/FusionTV"
-  }
+    url: "https://github.com/csudhtoro/FusionTV",
+  },
 ];
 
 export const minorProjectsData = [
@@ -130,10 +130,10 @@ export const minorProjectsData = [
       "Android SDK",
       "Material Design",
       "ViewModel",
-      "Rounded Corner Progress Bar"
+      "Rounded Corner Progress Bar",
     ],
     imageUrl: NymsImg,
-    url: "https://github.com/csudhtoro/Nyms"
+    url: "https://github.com/csudhtoro/Nyms",
   },
   {
     title: "Portfolio",
@@ -142,7 +142,7 @@ export const minorProjectsData = [
     loginInfo: [],
     tags: ["React", "Next.js", "Tailwind CSS", "clsx", "Framer Motion"],
     imageUrl: portfolioImg,
-    url: "https://dana-shorts-dev.vercel.app/"
+    url: "https://dana-shorts-dev.vercel.app/",
   },
   {
     title: "Ration",
@@ -151,8 +151,8 @@ export const minorProjectsData = [
     loginInfo: [],
     tags: ["React", "Framer Motion", "React Router V6", "Tailwind CSS"],
     imageUrl: rationImg,
-    url: "https://ration.vercel.app/"
-  }
+    url: "https://ration.vercel.app/",
+  },
 ];
 
 export const skillsData = [
@@ -199,7 +199,7 @@ export const skillsData = [
         </g>
       </svg>
     ),
-    name: "Java"
+    name: "Java",
   },
   {
     icon: (
@@ -219,7 +219,7 @@ export const skillsData = [
         ></path>
       </svg>
     ),
-    name: "JavaScript"
+    name: "JavaScript",
   },
   {
     icon: (
@@ -246,7 +246,7 @@ export const skillsData = [
         ></path>
       </svg>
     ),
-    name: "Android SDK"
+    name: "Android SDK",
   },
   {
     icon: (
@@ -274,7 +274,7 @@ export const skillsData = [
         <circle cx="24" cy="24" r="4" fill="#80deea"></circle>
       </svg>
     ),
-    name: "React"
+    name: "React",
   },
   {
     icon: (
@@ -293,7 +293,7 @@ export const skillsData = [
         ></path>
       </svg>
     ),
-    name: "Next.js"
+    name: "Next.js",
   },
 
   {
@@ -345,7 +345,7 @@ export const skillsData = [
         ></path>
       </svg>
     ),
-    name: "C-Sharp"
+    name: "C-Sharp",
   },
 
   {
@@ -397,7 +397,7 @@ export const skillsData = [
         ></path>
       </svg>
     ),
-    name: "C Plus Plus"
+    name: "C Plus Plus",
   },
 
   {
@@ -423,7 +423,7 @@ export const skillsData = [
         ></path>
       </svg>
     ),
-    name: "HTML"
+    name: "HTML",
   },
 
   {
@@ -449,7 +449,7 @@ export const skillsData = [
         ></path>
       </svg>
     ),
-    name: "CSS"
+    name: "CSS",
   },
 
   {
@@ -470,7 +470,7 @@ export const skillsData = [
       </svg>
     ),
 
-    name: "Tailwind CSS"
+    name: "Tailwind CSS",
   },
 
   {
@@ -494,7 +494,7 @@ export const skillsData = [
         ></path>
       </svg>
     ),
-    name: "Bootstrap"
+    name: "Bootstrap",
   },
 
   {
@@ -530,7 +530,7 @@ export const skillsData = [
         ></path>
       </svg>
     ),
-    name: "Node.js"
+    name: "Node.js",
   },
 
   {
@@ -562,7 +562,7 @@ export const skillsData = [
         ></path>
       </svg>
     ),
-    name: "Firebase"
+    name: "Firebase",
   },
 
   {
@@ -614,7 +614,7 @@ export const skillsData = [
         ></path>
       </svg>
     ),
-    name: "MS SQL Server"
+    name: "MS SQL Server",
   },
   {
     icon: (
@@ -646,6 +646,6 @@ export const skillsData = [
         ></path>
       </svg>
     ),
-    name: "MongoDB"
-  }
+    name: "MongoDB",
+  },
 ];
