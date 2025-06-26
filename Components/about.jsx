@@ -8,7 +8,7 @@ import { useActiveSectionContext } from "./context/active-section-context";
 
 export default function About() {
   const { ref, inView } = useInView({
-    threshold: 0.75
+    threshold: 0.75,
   });
   const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
 
@@ -29,13 +29,12 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        As a dedicated software developer, I am committed to translating
-        concepts into refined, operational, and streamlined code. With expertise
-        in core languages including <span className="font-bold">Java</span> and{" "}
-        <span className="font-bold">JavaScript</span>, my versatility extends to
-        encompassing a variety of other languages, frameworks, and development
-        tools. Thriving within the tech landscape, my curiosity drives me to
-        consistently explore trends and industry advancements.
+        Passionate software developer skilled in translating concepts into
+        refined and performant code. My core strengths lie in Java and
+        JavaScript, augmented by continuous learning across emerging languages,
+        frameworks, and tools. I am adept at complex problem-solving and
+        collaborative development, focused on delivering solutions that make a
+        tangible difference.
       </p>
 
       <p>
