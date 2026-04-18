@@ -584,7 +584,7 @@ export const skillsData = [
           fill="#fff"
           d="M16,14h16v4H26v16h-4V18h-6V14z"
         ></path>
-        <path fill="#c0392b" d="M20,32 Q24,38 28,32" stroke="#c0392b" stroke-width="2" fill="none"></path>
+        <path fill="none" stroke="#c0392b" strokeWidth="2" d="M20,32 Q24,38 28,32"></path>
       </svg>
     ),
     name: "Apache Tomcat",
