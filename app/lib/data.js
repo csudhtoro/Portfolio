@@ -484,49 +484,12 @@ export const skillsData = [
     name: "MS SQL Server",
   },
   {
-    icon: (
-      <svg
-        class="h-12"
-        xmlns="http://www.w3.org/2000/svg"
-        x="0px"
-        y="0px"
-        width="60"
-        height="60"
-        viewBox="0 0 48 48"
-      >
-        <rect fill="#1976d2" x="6" y="6" width="36" height="36"></rect>
-        <polygon
-          fill="#fff"
-          points="27.49,22 14.227,22 14.227,24.687 19.187,24.687 19.187,37.335 22.762,37.335 22.762,24.687 27.49,24.687"
-        ></polygon>
-        <path
-          fill="#fff"
-          d="M39.641,27.607l-2.966-0.706c-0.119-0.465-0.334-0.888-0.646-1.229c-0.313-0.343-0.732-0.585-1.254-0.741 c-0.521-0.155-1.148-0.194-1.873-0.108c-0.717,0.085-1.336,0.268-1.849,0.545c-0.515,0.278-0.937,0.636-1.258,1.071 c-0.321,0.435-0.547,0.944-0.672,1.521c-0.125,0.576-0.113,1.181,0.035,1.81c0.149,0.629,0.423,1.161,0.82,1.594 c0.396,0.432,0.901,0.759,1.514,0.976c0.613,0.218,1.311,0.321,2.098,0.308v2.396c-1.035,0.038-1.982-0.105-2.836-0.43 c-0.855-0.323-1.584-0.79-2.189-1.396c-0.605-0.607-1.068-1.329-1.385-2.167c-0.319-0.837-0.447-1.761-0.385-2.771 c0.063-1.01,0.325-1.919,0.788-2.729c0.464-0.811,1.094-1.483,1.892-2.017c0.795-0.533,1.734-0.888,2.808-1.065 c1.073-0.177,2.198-0.134,3.374,0.128c0.916,0.203,1.708,0.533,2.374,0.99c0.666,0.457,1.183,1.017,1.551,1.678 C39.323,26.104,39.54,26.829,39.641,27.607z"
-        ></path>
-      </svg>
-    ),
+    icon: <img src="/typescript.svg" alt="TypeScript" className="h-12 w-12 mx-1" />,
     name: "TypeScript",
   },
 
   {
-    icon: (
-      <svg
-        class="h-12"
-        xmlns="http://www.w3.org/2000/svg"
-        x="0px"
-        y="0px"
-        width="60"
-        height="60"
-        viewBox="0 0 48 48"
-      >
-        <circle cx="24" cy="24" r="20" fill="#336791"></circle>
-        <path
-          fill="#fff"
-          d="M19,14h6c2.8,0,5,2.2,5,5s-2.2,5-5,5h-4v10h-2V14z M21,22h4c1.7,0,3-1.3,3-3s-1.3-3-3-3h-4V22z"
-        ></path>
-        <path fill="#fff" d="M30,24l5,10h-2.5l-1.3-2.5h-4.4L25.5,34H23l5-10H30z M30.2,29.5l-1.5-3l-1.5,3H30.2z"></path>
-      </svg>
-    ),
+    icon: <img src="/postgresql.svg" alt="PostgreSQL" className="h-12 w-12 mx-1" />,
     name: "PostgreSQL",
   },
 
@@ -549,61 +512,17 @@ export const skillsData = [
   },
 
   {
-    icon: (
-      <svg
-        class="h-12"
-        xmlns="http://www.w3.org/2000/svg"
-        x="0px"
-        y="0px"
-        width="60"
-        height="60"
-        viewBox="0 0 48 48"
-      >
-        <rect fill="#0070ad" width="48" height="48" rx="4"></rect>
-        <ellipse cx="24" cy="14" rx="14" ry="5" fill="#fff"></ellipse>
-        <path fill="#fff" d="M10,14v8c0,2.8,6.3,5,14,5s14-2.2,14-5v-8c0,2.8-6.3,5-14,5S10,16.8,10,14z"></path>
-        <path fill="#fff" d="M10,22v8c0,2.8,6.3,5,14,5s14-2.2,14-5v-8c0,2.8-6.3,5-14,5S10,24.8,10,22z"></path>
-      </svg>
-    ),
+    icon: <img src="/sybase.svg" alt="SQL Anywhere (Sybase)" className="h-12 w-12 mx-1" />,
     name: "SQL Anywhere (Sybase)",
   },
 
   {
-    icon: (
-      <svg
-        class="h-12"
-        xmlns="http://www.w3.org/2000/svg"
-        x="0px"
-        y="0px"
-        width="60"
-        height="60"
-        viewBox="0 0 48 48"
-      >
-        <circle cx="24" cy="24" r="20" fill="#f8a11a"></circle>
-        <path
-          fill="#fff"
-          d="M16,14h16v4H26v16h-4V18h-6V14z"
-        ></path>
-        <path fill="none" stroke="#c0392b" strokeWidth="2" d="M20,32 Q24,38 28,32"></path>
-      </svg>
-    ),
+    icon: <img src="/tomcat.svg" alt="Apache Tomcat" className="h-12 w-12 mx-1" />,
     name: "Apache Tomcat",
   },
 
   {
-    icon: (
-      <svg
-        class="h-12"
-        xmlns="http://www.w3.org/2000/svg"
-        x="0px"
-        y="0px"
-        width="60"
-        height="60"
-        viewBox="0 0 48 48"
-      >
-        <polygon fill="#000000" points="24,6 44,42 4,42"></polygon>
-      </svg>
-    ),
+    icon: <img src="/vercel.svg" alt="Vercel" className="h-12 w-12 mx-1" />,
     name: "Vercel",
   },
 ];
