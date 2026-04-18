@@ -28,27 +28,47 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        Passionate software developer skilled in translating concepts into
-        refined and performant code. My core strengths lie in Java and
-        JavaScript, augmented by continuous learning across emerging languages,
-        frameworks, and tools. I am adept at complex problem-solving and
-        collaborative development, focused on delivering solutions that make a
-        tangible difference.
+      <p className="mb-4">
+        I'm a full-stack software engineer with over a decade of experience
+        building and maintaining production systems that support real business
+        operations. My work spans frontend, backend, and data layers — from
+        developing <span className="font-medium">React</span> and{" "}
+        <span className="font-medium">Next.js</span> applications to designing
+        database schemas, optimizing queries, and integrating with external
+        systems.
+      </p>
+
+      <p className="mb-4">
+        In addition to my professional experience, I've built and shipped{" "}
+        <span className="font-medium">SaaS and mobile applications</span> using
+        modern technologies like{" "}
+        <span className="font-medium">React Native (Expo)</span>,{" "}
+        <span className="font-medium">Node.js</span>, and{" "}
+        <span className="font-medium">PostgreSQL/Supabase</span>. These projects
+        include subscription-based platforms, real-time data-driven features,
+        and push notification systems, giving me hands-on experience with
+        end-to-end product development — from architecture and implementation to
+        deployment and iteration.
+      </p>
+
+      <p className="mb-4">
+        I specialize in{" "}
+        <span className="font-medium">JavaScript/TypeScript</span> and focus on
+        building scalable, maintainable systems with clean architecture. I've
+        led development efforts across complex internal tools and
+        customer-facing applications, often working within existing systems to
+        improve performance, reliability, and usability without disrupting
+        operations.
       </p>
 
       <p>
-        I take pride in my ability to tackle{" "}
-        <span className="font-medium"> complex problems </span> and to
-        collaborate effectively in a team environment. Whether it's building
-        apps, or optimizing database performance,{" "}
-        <span className="font-bold">
-          {" "}
-          I'm dedicated to delivering solutions
-        </span>{" "}
-        that make a positive impact. Welcome to my portfolio, an avenue through
-        which you can explore my projects and witness my steadfast commitment to
-        the craft of software development.
+        I approach problems with a strong emphasis on{" "}
+        <span className="font-medium">clarity, correctness, and long-term maintainability</span>.
+        Whether I'm building new features, debugging production issues, or
+        designing data flows, I prioritize thoughtful decision-making and
+        measurable impact. I'm especially interested in continuing to grow in
+        full-stack and mobile development, and in building well-structured,
+        user-focused applications at scale.
       </p>
     </motion.section>
   );

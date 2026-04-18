@@ -63,17 +63,20 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Hello, I'm
-        <span className="font-bold"> Dana,</span> a seasoned
-        <span className="font-bold"> software developer</span> boasting
-        <span className="font-bold"> a decade of experience </span>
-        in crafting technological solutions. I enjoy building both web and
-        mobile apps and <span> my focuses are</span>
+        Hello, I'm{" "}
+        <span className="font-bold">Dana</span> — a{" "}
+        <span className="font-bold">full-stack software engineer</span> with{" "}
+        <span className="font-bold">10+ years</span> owning production systems
+        end-to-end. I've delivered measurable gains across mission-critical
+        infrastructure serving multiple business units, and independently shipped{" "}
+        <span className="font-bold">SaaS products</span> with auth, payments, and
+        AI integration. My core stack is{" "}
         <span className="font-bold">
-          <span className="underline"> React (Next.js)</span> and{" "}
-          <span className="underline">Native Android</span>
-        </span>{" "}
-        application development.{" "}
+          <span className="underline">TypeScript</span>,{" "}
+          <span className="underline">React</span>,{" "}
+          <span className="underline">Node.js</span>, and{" "}
+          <span className="underline">PostgreSQL</span>
+        </span>.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row item-center justify-center gap-2 px-[8.5rem] text-lg font-medium"

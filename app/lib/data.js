@@ -7,6 +7,8 @@ import FusionTVImg from "@/public/FusionTV_SS.png";
 import NymsImg from "@/public/NYMS_SS.PNG";
 import rationImg from "@/public/ration_screen.PNG";
 import portfolioImg from "@/public/portfolio_screen.PNG";
+import plotlyPlaceholder from "@/public/portfolio_screen.PNG";
+import threadPlaceholder from "@/public/portfolio_screen.PNG";
 import { FaGraduationCap } from "react-icons/fa";
 
 export const links = [
@@ -116,6 +118,24 @@ export const projectsData = [
     ],
     imageUrl: FusionTVImg,
     url: "https://github.com/csudhtoro/FusionTV",
+  },
+  {
+    title: "Plotly",
+    description:
+      "A cross platform tv-tracking and notification mobile application, allowing user-defined scheduling logic across multiple timezones.",
+    loginInfo: [],
+    tags: ["React Native", "Expo", "Node.js", "PostgreSQL"],
+    imageUrl: plotlyPlaceholder,
+    url: "https://www.plotly.watch",
+  },
+  {
+    title: "Thread",
+    description:
+      "A fun daily Wordle-style puzzle game, consisting of a chain of 5 total words, and 3 hidden middle words.",
+    loginInfo: [],
+    tags: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+    imageUrl: threadPlaceholder,
+    url: "https://www.thread-game.io",
   },
 ];
 
