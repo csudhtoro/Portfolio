@@ -7,7 +7,7 @@ import FusionTVImg from "@/public/FusionTV_SS.png";
 import NymsImg from "@/public/NYMS_SS.PNG";
 import rationImg from "@/public/ration_screen.PNG";
 import portfolioImg from "@/public/portfolio_screen.PNG";
-import plotlyImg from "@/public/plotlyImg.PNG";
+import plotlyImg from "@/public/plotlyImg.png";
 import threadImg from "@/public/threadImg.png"
 import plotlyPlaceholder from "@/public/portfolio_screen.PNG";
 import threadPlaceholder from "@/public/portfolio_screen.PNG";
