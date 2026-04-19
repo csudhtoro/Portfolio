@@ -7,6 +7,8 @@ import FusionTVImg from "@/public/FusionTV_SS.png";
 import NymsImg from "@/public/NYMS_SS.PNG";
 import rationImg from "@/public/ration_screen.PNG";
 import portfolioImg from "@/public/portfolio_screen.PNG";
+import plotlyImg from "@/public/plotlyImg.PNG";
+import threadImg from "@/public/threadImg.png"
 import plotlyPlaceholder from "@/public/portfolio_screen.PNG";
 import threadPlaceholder from "@/public/portfolio_screen.PNG";
 import { FaGraduationCap } from "react-icons/fa";
@@ -69,63 +71,63 @@ export const experiencesData = [
 ];
 
 export const projectsData = [
-  {
-    title: "Quantum",
-    description:
-      "This blog application utilizes Next.js 13 (App Router & Server Actions) to efficiently manage page transitions and dynamic routing.",
-    loginInfo: [],
-    tags: [
-      "React",
-      "Next.JS",
-      "Next-Auth",
-      "Prisma",
-      "Mongodb",
-      "TailWind CSS",
-      "React Quill",
-    ],
-    imageUrl: QuantumImg,
-    url: "https://quantum-blogspace.vercel.app/",
-  },
-  {
-    title: "PlayPal",
-    description:
-      "Next.js 13 app enables users to create posts and connect with other like-minded users for physical activities",
-    loginInfo: ["Username: ritabook90@gmail.com", "Password: 123456"],
-    tags: [
-      "React",
-      "Next.JS",
-      "Next-Auth",
-      "Firebase",
-      "TailWind CSS",
-      "Framer Motion",
-      "MapBox",
-    ],
-    imageUrl: playPalImg,
-    url: "https://playpal-connect.vercel.app/",
-  },
-  {
-    title: "FusionTV",
-    description:
-      "Android app designed to provide detailed information about your favorite tv shows and offering a convenient way to save and organize your favorites.",
-    loginInfo: [],
-    tags: [
-      "Java",
-      "Android SDK",
-      "Firebase",
-      "Material Design",
-      "ViewModel",
-      "Gson",
-    ],
-    imageUrl: FusionTVImg,
-    url: "https://github.com/csudhtoro/FusionTV",
-  },
+  // {
+  //   title: "Quantum",
+  //   description:
+  //     "This blog application utilizes Next.js 13 (App Router & Server Actions) to efficiently manage page transitions and dynamic routing.",
+  //   loginInfo: [],
+  //   tags: [
+  //     "React",
+  //     "Next.JS",
+  //     "Next-Auth",
+  //     "Prisma",
+  //     "Mongodb",
+  //     "TailWind CSS",
+  //     "React Quill",
+  //   ],
+  //   imageUrl: QuantumImg,
+  //   url: "https://quantum-blogspace.vercel.app/",
+  // },
+  // {
+  //   title: "PlayPal",
+  //   description:
+  //     "Next.js 13 app enables users to create posts and connect with other like-minded users for physical activities",
+  //   loginInfo: ["Username: ritabook90@gmail.com", "Password: 123456"],
+  //   tags: [
+  //     "React",
+  //     "Next.JS",
+  //     "Next-Auth",
+  //     "Firebase",
+  //     "TailWind CSS",
+  //     "Framer Motion",
+  //     "MapBox",
+  //   ],
+  //   imageUrl: playPalImg,
+  //   url: "https://playpal-connect.vercel.app/",
+  // },
+  // {
+  //   title: "FusionTV",
+  //   description:
+  //     "Android app designed to provide detailed information about your favorite tv shows and offering a convenient way to save and organize your favorites.",
+  //   loginInfo: [],
+  //   tags: [
+  //     "Java",
+  //     "Android SDK",
+  //     "Firebase",
+  //     "Material Design",
+  //     "ViewModel",
+  //     "Gson",
+  //   ],
+  //   imageUrl: FusionTVImg,
+  //   url: "https://github.com/csudhtoro/FusionTV",
+  // },
   {
     title: "Plotly",
     description:
       "A cross platform tv-tracking and notification mobile application, allowing user-defined scheduling logic across multiple timezones.",
     loginInfo: [],
     tags: ["React Native", "Expo", "Node.js", "PostgreSQL"],
-    imageUrl: plotlyPlaceholder,
+    imageUrl: plotlyImg,
     url: "https://www.plotly.watch",
   },
   {
@@ -134,27 +136,27 @@ export const projectsData = [
       "A fun daily Wordle-style puzzle game, consisting of a chain of 5 total words, and 3 hidden middle words.",
     loginInfo: [],
     tags: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
-    imageUrl: threadPlaceholder,
+    imageUrl: threadImg,
     url: "https://www.thread-game.io",
   },
 ];
 
 export const minorProjectsData = [
-  {
-    title: "Nyms",
-    description:
-      "A word guessing game in which players use their wit and parts of speech to reveal the secret word.",
-    loginInfo: [],
-    tags: [
-      "Java",
-      "Android SDK",
-      "Material Design",
-      "ViewModel",
-      "Rounded Corner Progress Bar",
-    ],
-    imageUrl: NymsImg,
-    url: "https://github.com/csudhtoro/Nyms",
-  },
+  // {
+  //   title: "Nyms",
+  //   description:
+  //     "A word guessing game in which players use their wit and parts of speech to reveal the secret word.",
+  //   loginInfo: [],
+  //   tags: [
+  //     "Java",
+  //     "Android SDK",
+  //     "Material Design",
+  //     "ViewModel",
+  //     "Rounded Corner Progress Bar",
+  //   ],
+  //   imageUrl: NymsImg,
+  //   url: "https://github.com/csudhtoro/Nyms",
+  // },
   {
     title: "Portfolio",
     description:
@@ -162,66 +164,21 @@ export const minorProjectsData = [
     loginInfo: [],
     tags: ["React", "Next.js", "Tailwind CSS", "clsx", "Framer Motion"],
     imageUrl: portfolioImg,
-    url: "https://dana-shorts-dev.vercel.app/",
+    url: "https://dana-shorts.dev",
   },
-  {
-    title: "Ration",
-    description:
-      "A fully responsive front-end mock-up project ideal for a food delivery service website. It features filtering, routing and shopping cart and search functionalities.",
-    loginInfo: [],
-    tags: ["React", "Framer Motion", "React Router V6", "Tailwind CSS"],
-    imageUrl: rationImg,
-    url: "https://ration.vercel.app/",
-  },
+  // {
+  //   title: "Ration",
+  //   description:
+  //     "A fully responsive front-end mock-up project ideal for a food delivery service website. It features filtering, routing and shopping cart and search functionalities.",
+  //   loginInfo: [],
+  //   tags: ["React", "Framer Motion", "React Router V6", "Tailwind CSS"],
+  //   imageUrl: rationImg,
+  //   url: "https://ration.vercel.app/",
+  // },
 ];
 
 export const skillsData = [
-  {
-    icon: (
-      <svg
-        class="h-12"
-        xmlns="http://www.w3.org/2000/svg"
-        x="0px"
-        y="0px"
-        width="60"
-        height="60"
-        viewBox="0 0 48 48"
-      >
-        <path
-          fill="#F44336"
-          d="M23.65,24.898c-0.998-1.609-1.722-2.943-2.725-5.455C19.229,15.2,31.24,11.366,26.37,3.999c2.111,5.089-7.577,8.235-8.477,12.473C17.07,20.37,23.645,24.898,23.65,24.898z"
-        ></path>
-        <path
-          fill="#F44336"
-          d="M23.878,17.27c-0.192,2.516,2.229,3.857,2.299,5.695c0.056,1.496-1.447,2.743-1.447,2.743s2.728-0.536,3.579-2.818c0.945-2.534-1.834-4.269-1.548-6.298c0.267-1.938,6.031-5.543,6.031-5.543S24.311,11.611,23.878,17.27z"
-        ></path>
-        <g>
-          <path
-            fill="#1565C0"
-            d="M32.084 25.055c1.754-.394 3.233.723 3.233 2.01 0 2.901-4.021 5.643-4.021 5.643s6.225-.742 6.225-5.505C37.521 24.053 34.464 23.266 32.084 25.055zM29.129 27.395c0 0 1.941-1.383 2.458-1.902-4.763 1.011-15.638 1.147-15.638.269 0-.809 3.507-1.638 3.507-1.638s-7.773-.112-7.773 2.181C11.683 28.695 21.858 28.866 29.129 27.395z"
-          ></path>
-          <path
-            fill="#1565C0"
-            d="M27.935,29.571c-4.509,1.499-12.814,1.02-10.354-0.993c-1.198,0-2.974,0.963-2.974,1.889c0,1.857,8.982,3.291,15.63,0.572L27.935,29.571z"
-          ></path>
-          <path
-            fill="#1565C0"
-            d="M18.686,32.739c-1.636,0-2.695,1.054-2.695,1.822c0,2.391,9.76,2.632,13.627,0.205l-2.458-1.632C24.271,34.404,17.014,34.579,18.686,32.739z"
-          ></path>
-          <path
-            fill="#1565C0"
-            d="M36.281,36.632c0-0.936-1.055-1.377-1.433-1.588c2.228,5.373-22.317,4.956-22.317,1.784c0-0.721,1.807-1.427,3.477-1.093l-1.42-0.839C11.26,34.374,9,35.837,9,37.017C9,42.52,36.281,42.255,36.281,36.632z"
-          ></path>
-          <path
-            fill="#1565C0"
-            d="M39,38.604c-4.146,4.095-14.659,5.587-25.231,3.057C24.341,46.164,38.95,43.628,39,38.604z"
-          ></path>
-        </g>
-      </svg>
-    ),
-    name: "Java",
-  },
-  {
+    {
     icon: (
       <svg
         class="h-12"
@@ -240,6 +197,74 @@ export const skillsData = [
       </svg>
     ),
     name: "JavaScript",
+  },
+  {
+    icon: <img src="/typescript.svg" alt="TypeScript" className="h-10 w-10 mx-1" />,
+    name: "TypeScript",
+  },
+  {
+    icon: (
+        <svg
+            class="h-12"
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="60"
+            height="60"
+            viewBox="0 0 48 48"
+        >
+          <path
+              fill="#F44336"
+              d="M23.65,24.898c-0.998-1.609-1.722-2.943-2.725-5.455C19.229,15.2,31.24,11.366,26.37,3.999c2.111,5.089-7.577,8.235-8.477,12.473C17.07,20.37,23.645,24.898,23.65,24.898z"
+          ></path>
+          <path
+              fill="#F44336"
+              d="M23.878,17.27c-0.192,2.516,2.229,3.857,2.299,5.695c0.056,1.496-1.447,2.743-1.447,2.743s2.728-0.536,3.579-2.818c0.945-2.534-1.834-4.269-1.548-6.298c0.267-1.938,6.031-5.543,6.031-5.543S24.311,11.611,23.878,17.27z"
+          ></path>
+          <g>
+            <path
+                fill="#1565C0"
+                d="M32.084 25.055c1.754-.394 3.233.723 3.233 2.01 0 2.901-4.021 5.643-4.021 5.643s6.225-.742 6.225-5.505C37.521 24.053 34.464 23.266 32.084 25.055zM29.129 27.395c0 0 1.941-1.383 2.458-1.902-4.763 1.011-15.638 1.147-15.638.269 0-.809 3.507-1.638 3.507-1.638s-7.773-.112-7.773 2.181C11.683 28.695 21.858 28.866 29.129 27.395z"
+            ></path>
+            <path
+                fill="#1565C0"
+                d="M27.935,29.571c-4.509,1.499-12.814,1.02-10.354-0.993c-1.198,0-2.974,0.963-2.974,1.889c0,1.857,8.982,3.291,15.63,0.572L27.935,29.571z"
+            ></path>
+            <path
+                fill="#1565C0"
+                d="M18.686,32.739c-1.636,0-2.695,1.054-2.695,1.822c0,2.391,9.76,2.632,13.627,0.205l-2.458-1.632C24.271,34.404,17.014,34.579,18.686,32.739z"
+            ></path>
+            <path
+                fill="#1565C0"
+                d="M36.281,36.632c0-0.936-1.055-1.377-1.433-1.588c2.228,5.373-22.317,4.956-22.317,1.784c0-0.721,1.807-1.427,3.477-1.093l-1.42-0.839C11.26,34.374,9,35.837,9,37.017C9,42.52,36.281,42.255,36.281,36.632z"
+            ></path>
+            <path
+                fill="#1565C0"
+                d="M39,38.604c-4.146,4.095-14.659,5.587-25.231,3.057C24.341,46.164,38.95,43.628,39,38.604z"
+            ></path>
+          </g>
+        </svg>
+    ),
+    name: "Java",
+  },
+  {
+    icon: (
+        <svg
+            class="h-12"
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="60"
+            height="60"
+            viewBox="0 0 48 48"
+        >
+          <path
+              fill="#212121"
+              d="M18.974,31.5c0,0.828-0.671,1.5-1.5,1.5s-1.5-0.672-1.5-1.5v-14c0-0.653,0.423-1.231,1.045-1.43 c0.625-0.198,1.302,0.03,1.679,0.563l16.777,23.704C40.617,36.709,44,30.735,44,24c0-11-9-20-20-20S4,13,4,24s9,20,20,20 c3.192,0,6.206-0.777,8.89-2.122L18.974,22.216V31.5z M28.974,16.5c0-0.828,0.671-1.5,1.5-1.5s1.5,0.672,1.5,1.5v13.84l-3-4.227 V16.5z"
+          ></path>
+        </svg>
+    ),
+    name: "Next.js",
   },
   {
     icon: (
@@ -271,24 +296,59 @@ export const skillsData = [
   },
   {
     icon: (
-      <svg
-        class="h-12"
-        xmlns="http://www.w3.org/2000/svg"
-        x="0px"
-        y="0px"
-        width="60"
-        height="60"
-        viewBox="0 0 48 48"
-      >
-        <path
-          fill="#212121"
-          d="M18.974,31.5c0,0.828-0.671,1.5-1.5,1.5s-1.5-0.672-1.5-1.5v-14c0-0.653,0.423-1.231,1.045-1.43 c0.625-0.198,1.302,0.03,1.679,0.563l16.777,23.704C40.617,36.709,44,30.735,44,24c0-11-9-20-20-20S4,13,4,24s9,20,20,20 c3.192,0,6.206-0.777,8.89-2.122L18.974,22.216V31.5z M28.974,16.5c0-0.828,0.671-1.5,1.5-1.5s1.5,0.672,1.5,1.5v13.84l-3-4.227 V16.5z"
-        ></path>
-      </svg>
+        <svg
+            class="h-12"
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="70"
+            height="70"
+            viewBox="0 0 48 48"
+        >
+          <path
+              fill="#388e3c"
+              d="M17.204 19.122l-4.907 2.715C12.113 21.938 12 22.126 12 22.329v5.433c0 .203.113.39.297.492l4.908 2.717c.183.101.41.101.593 0l4.907-2.717C22.887 28.152 23 27.965 23 27.762v-5.433c0-.203-.113-.39-.297-.492l-4.906-2.715c-.092-.051-.195-.076-.297-.076-.103 0-.205.025-.297.076M42.451 24.013l-.818.452c-.031.017-.049.048-.049.082v.906c0 .034.019.065.049.082l.818.453c.031.017.068.017.099 0l.818-.453c.03-.017.049-.048.049-.082v-.906c0-.034-.019-.065-.05-.082l-.818-.452C42.534 24.004 42.517 24 42.5 24S42.466 24.004 42.451 24.013"
+          ></path>
+          <path
+              fill="#37474f"
+              d="M35.751,13.364l-2.389-1.333c-0.075-0.042-0.167-0.041-0.241,0.003 c-0.074,0.044-0.12,0.123-0.12,0.209L33,20.295l-2.203-1.219C30.705,19.025,30.602,19,30.5,19c-0.102,0-0.205,0.025-0.297,0.076 h0.001l-4.907,2.715C25.113,21.892,25,22.08,25,22.282v5.433c0,0.203,0.113,0.39,0.297,0.492l4.908,2.717 c0.183,0.101,0.41,0.101,0.593,0l4.907-2.717C35.887,28.106,36,27.918,36,27.715V13.788C36,13.612,35.904,13.45,35.751,13.364z M32.866,26.458l-2.23,1.235c-0.083,0.046-0.186,0.046-0.269,0l-2.231-1.235C28.051,26.412,28,26.326,28,26.234v-2.47 c0-0.092,0.051-0.177,0.135-0.224l2.231-1.234h-0.001c0.042-0.023,0.088-0.034,0.135-0.034c0.047,0,0.093,0.012,0.135,0.034 l2.23,1.234C32.949,23.587,33,23.673,33,23.765v2.47C33,26.326,32.949,26.412,32.866,26.458z"
+          ></path>
+          <path
+              fill="#2e7d32"
+              d="M17.204,19.122L12,27.762c0,0.203,0.113,0.39,0.297,0.492l4.908,2.717 c0.183,0.101,0.41,0.101,0.593,0L23,22.329c0-0.203-0.113-0.39-0.297-0.492l-4.906-2.715c-0.092-0.051-0.195-0.076-0.297-0.076 c-0.103,0-0.205,0.025-0.297,0.076"
+          ></path>
+          <path
+              fill="#4caf50"
+              d="M17.204,19.122l-4.907,2.715C12.113,21.938,12,22.126,12,22.329l5.204,8.642 c0.183,0.101,0.41,0.101,0.593,0l4.907-2.717C22.887,28.152,23,27.965,23,27.762l-5.203-8.64c-0.092-0.051-0.195-0.076-0.297-0.076 c-0.103,0-0.205,0.025-0.297,0.076"
+          ></path>
+          <path
+              fill="#37474f"
+              d="M47.703 21.791l-4.906-2.715C42.705 19.025 42.602 19 42.5 19c-.102 0-.205.025-.297.076h.001l-4.907 2.715C37.114 21.892 37 22.084 37 22.294v5.411c0 .209.114.402.297.503l4.908 2.717c.184.102.409.102.593 0l2.263-1.253c.207-.115.206-.412-.002-.526l-4.924-2.687C40.052 26.412 40 26.325 40 26.231v-2.466c0-.092.05-.177.13-.221l2.235-1.236h-.001c.042-.023.088-.034.135-.034.047 0 .093.012.135.034l2.235 1.237c.08.044.13.129.13.221v2.012c0 .086.046.166.121.209.075.042.167.042.242-.001l2.398-1.393c.148-.086.24-.245.24-.417v-1.88C48 22.085 47.886 21.892 47.703 21.791zM10.703 21.791l-4.906-2.715C5.705 19.025 5.602 19 5.5 19c-.102 0-.205.025-.297.076h.001l-4.907 2.715C.114 21.892 0 22.084 0 22.294v7.465c0 .086.046.166.121.209.075.042.167.042.242-.001l2.398-1.393C2.909 28.488 3 28.329 3 28.157v-4.393c0-.092.05-.177.13-.221l2.235-1.236H5.365c.042-.023.088-.034.135-.034.047 0 .093.012.135.034l2.235 1.237C7.95 23.588 8 23.673 8 23.765v4.393c0 .172.091.331.24.417l2.398 1.393c.075.043.167.043.242.001C10.954 29.925 11 29.845 11 29.759v-7.464C11 22.085 10.886 21.892 10.703 21.791z"
+          ></path>
+        </svg>
     ),
-    name: "Next.js",
+    name: "Node.js",
   },
+  {
+    icon: (
+        <svg
+            class="h-12"
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="60"
+            height="60"
+            viewBox="0 0 48 48"
+        >
+          <path
+              fill="#00acc1"
+              d="M24,9.604c-6.4,0-10.4,3.199-12,9.597c2.4-3.199,5.2-4.398,8.4-3.599 c1.826,0.456,3.131,1.781,4.576,3.247C27.328,21.236,30.051,24,36,24c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.6 c-1.825-0.456-3.13-1.781-4.575-3.247C32.672,12.367,29.948,9.604,24,9.604L24,9.604z M12,24c-6.4,0-10.4,3.199-12,9.598 c2.4-3.199,5.2-4.399,8.4-3.599c1.825,0.457,3.13,1.781,4.575,3.246c2.353,2.388,5.077,5.152,11.025,5.152 c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.599c-1.826-0.456-3.131-1.781-4.576-3.246C20.672,26.764,17.949,24,12,24 L12,24z"
+          ></path>
+        </svg>
+    ),
 
+    name: "Tailwind CSS",
+  },
 
   {
     icon: (
@@ -341,64 +401,31 @@ export const skillsData = [
     ),
     name: "CSS",
   },
-
   {
     icon: (
-      <svg
-        class="h-12"
-        xmlns="http://www.w3.org/2000/svg"
-        x="0px"
-        y="0px"
-        width="60"
-        height="60"
-        viewBox="0 0 48 48"
-      >
-        <path
-          fill="#00acc1"
-          d="M24,9.604c-6.4,0-10.4,3.199-12,9.597c2.4-3.199,5.2-4.398,8.4-3.599 c1.826,0.456,3.131,1.781,4.576,3.247C27.328,21.236,30.051,24,36,24c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.6 c-1.825-0.456-3.13-1.781-4.575-3.247C32.672,12.367,29.948,9.604,24,9.604L24,9.604z M12,24c-6.4,0-10.4,3.199-12,9.598 c2.4-3.199,5.2-4.399,8.4-3.599c1.825,0.457,3.13,1.781,4.575,3.246c2.353,2.388,5.077,5.152,11.025,5.152 c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.599c-1.826-0.456-3.131-1.781-4.576-3.246C20.672,26.764,17.949,24,12,24 L12,24z"
-        ></path>
-      </svg>
+        <svg
+            class="h-10"
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="60"
+            height="60"
+            viewBox="0 0 48 48"
+        >
+          <rect fill="#1c1c1c" width="48" height="48" rx="6"></rect>
+          <polygon fill="#3ecf8e" points="27,6 13,28 24,28 21,42 35,20 24,20"></polygon>
+        </svg>
     ),
+    name: "Supabase",
+  },
 
-    name: "Tailwind CSS",
+  {
+    icon: <img src="/postgresql.svg" alt="PostgreSQL" className="h-10 w-10 mx-1" />,
+    name: "PostgreSQL",
   },
 
 
-  {
-    icon: (
-      <svg
-        class="h-12"
-        xmlns="http://www.w3.org/2000/svg"
-        x="0px"
-        y="0px"
-        width="70"
-        height="70"
-        viewBox="0 0 48 48"
-      >
-        <path
-          fill="#388e3c"
-          d="M17.204 19.122l-4.907 2.715C12.113 21.938 12 22.126 12 22.329v5.433c0 .203.113.39.297.492l4.908 2.717c.183.101.41.101.593 0l4.907-2.717C22.887 28.152 23 27.965 23 27.762v-5.433c0-.203-.113-.39-.297-.492l-4.906-2.715c-.092-.051-.195-.076-.297-.076-.103 0-.205.025-.297.076M42.451 24.013l-.818.452c-.031.017-.049.048-.049.082v.906c0 .034.019.065.049.082l.818.453c.031.017.068.017.099 0l.818-.453c.03-.017.049-.048.049-.082v-.906c0-.034-.019-.065-.05-.082l-.818-.452C42.534 24.004 42.517 24 42.5 24S42.466 24.004 42.451 24.013"
-        ></path>
-        <path
-          fill="#37474f"
-          d="M35.751,13.364l-2.389-1.333c-0.075-0.042-0.167-0.041-0.241,0.003 c-0.074,0.044-0.12,0.123-0.12,0.209L33,20.295l-2.203-1.219C30.705,19.025,30.602,19,30.5,19c-0.102,0-0.205,0.025-0.297,0.076 h0.001l-4.907,2.715C25.113,21.892,25,22.08,25,22.282v5.433c0,0.203,0.113,0.39,0.297,0.492l4.908,2.717 c0.183,0.101,0.41,0.101,0.593,0l4.907-2.717C35.887,28.106,36,27.918,36,27.715V13.788C36,13.612,35.904,13.45,35.751,13.364z M32.866,26.458l-2.23,1.235c-0.083,0.046-0.186,0.046-0.269,0l-2.231-1.235C28.051,26.412,28,26.326,28,26.234v-2.47 c0-0.092,0.051-0.177,0.135-0.224l2.231-1.234h-0.001c0.042-0.023,0.088-0.034,0.135-0.034c0.047,0,0.093,0.012,0.135,0.034 l2.23,1.234C32.949,23.587,33,23.673,33,23.765v2.47C33,26.326,32.949,26.412,32.866,26.458z"
-        ></path>
-        <path
-          fill="#2e7d32"
-          d="M17.204,19.122L12,27.762c0,0.203,0.113,0.39,0.297,0.492l4.908,2.717 c0.183,0.101,0.41,0.101,0.593,0L23,22.329c0-0.203-0.113-0.39-0.297-0.492l-4.906-2.715c-0.092-0.051-0.195-0.076-0.297-0.076 c-0.103,0-0.205,0.025-0.297,0.076"
-        ></path>
-        <path
-          fill="#4caf50"
-          d="M17.204,19.122l-4.907,2.715C12.113,21.938,12,22.126,12,22.329l5.204,8.642 c0.183,0.101,0.41,0.101,0.593,0l4.907-2.717C22.887,28.152,23,27.965,23,27.762l-5.203-8.64c-0.092-0.051-0.195-0.076-0.297-0.076 c-0.103,0-0.205,0.025-0.297,0.076"
-        ></path>
-        <path
-          fill="#37474f"
-          d="M47.703 21.791l-4.906-2.715C42.705 19.025 42.602 19 42.5 19c-.102 0-.205.025-.297.076h.001l-4.907 2.715C37.114 21.892 37 22.084 37 22.294v5.411c0 .209.114.402.297.503l4.908 2.717c.184.102.409.102.593 0l2.263-1.253c.207-.115.206-.412-.002-.526l-4.924-2.687C40.052 26.412 40 26.325 40 26.231v-2.466c0-.092.05-.177.13-.221l2.235-1.236h-.001c.042-.023.088-.034.135-.034.047 0 .093.012.135.034l2.235 1.237c.08.044.13.129.13.221v2.012c0 .086.046.166.121.209.075.042.167.042.242-.001l2.398-1.393c.148-.086.24-.245.24-.417v-1.88C48 22.085 47.886 21.892 47.703 21.791zM10.703 21.791l-4.906-2.715C5.705 19.025 5.602 19 5.5 19c-.102 0-.205.025-.297.076h.001l-4.907 2.715C.114 21.892 0 22.084 0 22.294v7.465c0 .086.046.166.121.209.075.042.167.042.242-.001l2.398-1.393C2.909 28.488 3 28.329 3 28.157v-4.393c0-.092.05-.177.13-.221l2.235-1.236H5.365c.042-.023.088-.034.135-.034.047 0 .093.012.135.034l2.235 1.237C7.95 23.588 8 23.673 8 23.765v4.393c0 .172.091.331.24.417l2.398 1.393c.075.043.167.043.242.001C10.954 29.925 11 29.845 11 29.759v-7.464C11 22.085 10.886 21.892 10.703 21.791z"
-        ></path>
-      </svg>
-    ),
-    name: "Node.js",
-  },
+
 
   {
     icon: (
@@ -483,46 +510,23 @@ export const skillsData = [
     ),
     name: "MS SQL Server",
   },
-  {
-    icon: <img src="/typescript.svg" alt="TypeScript" className="h-12 w-12 mx-1" />,
-    name: "TypeScript",
-  },
+
+
+
+
+
+  // {
+  //   icon: <img src="/sybase.svg" alt="SQL Anywhere (Sybase)" className="h-10 w-10 mx-1" />,
+  //   name: "SQL Anywhere (Sybase)",
+  // },
 
   {
-    icon: <img src="/postgresql.svg" alt="PostgreSQL" className="h-12 w-12 mx-1" />,
-    name: "PostgreSQL",
-  },
-
-  {
-    icon: (
-      <svg
-        class="h-12"
-        xmlns="http://www.w3.org/2000/svg"
-        x="0px"
-        y="0px"
-        width="60"
-        height="60"
-        viewBox="0 0 48 48"
-      >
-        <rect fill="#1c1c1c" width="48" height="48" rx="6"></rect>
-        <polygon fill="#3ecf8e" points="27,6 13,28 24,28 21,42 35,20 24,20"></polygon>
-      </svg>
-    ),
-    name: "Supabase",
-  },
-
-  {
-    icon: <img src="/sybase.svg" alt="SQL Anywhere (Sybase)" className="h-12 w-12 mx-1" />,
-    name: "SQL Anywhere (Sybase)",
-  },
-
-  {
-    icon: <img src="/tomcat.svg" alt="Apache Tomcat" className="h-12 w-12 mx-1" />,
+    icon: <img src="/tomcat.svg" alt="Apache Tomcat" className="h-10 w-10 mx-1" />,
     name: "Apache Tomcat",
   },
 
   {
-    icon: <img src="/vercel.svg" alt="Vercel" className="h-12 w-12 mx-1" />,
+    icon: <img src="/vercel.svg" alt="Vercel" className="h-10 w-10 mx-1" />,
     name: "Vercel",
   },
 ];
