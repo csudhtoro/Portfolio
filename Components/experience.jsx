@@ -24,7 +24,8 @@ export default function Experience() {
     }
   }, [inView, setActiveSection, timeOfLastClick]);
 
-  const { theme } = useTheme();
+  const { resolvedTheme } = useTheme();
+  const isLight = resolvedTheme !== "dark";
 
   return (
     <section
@@ -44,7 +45,7 @@ export default function Experience() {
             <VerticalTimelineElement
               contentStyle={{
                 background:
-                  theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.05)",
+                  isLight ? "#f3f4f6" : "rgba(255, 255, 255, 0.05)",
                 boxShadow: "none",
                 border: "1px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
@@ -52,14 +53,14 @@ export default function Experience() {
               }}
               contentArrowStyle={{
                 borderRight:
-                  theme === "light"
+                  isLight
                     ? "0.4rem solid #9ca3af"
                     : "0.4rem solid rgba(255, 255, 255, 0.5)"
               }}
               date={item.date}
               icon={item.icon}
               iconStyle={{
-                background: theme === "light" ? "white" : "#374151",
+                background: isLight ? "white" : "#374151",
                 fontSize: "1.5rem"
               }}
             >
