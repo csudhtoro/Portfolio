@@ -139,6 +139,15 @@ export const projectsData = [
     imageUrl: threadImg,
     url: "https://www.thread-game.io",
   },
+  {
+    title: "Portfolio",
+    description:
+        "Personal portfolio site to showcase my experience and skills as a Software Developer.",
+    loginInfo: [],
+    tags: ["React", "Next.js", "Tailwind CSS", "clsx", "Framer Motion"],
+    imageUrl: portfolioImg,
+    url: "https://dana-shorts.dev",
+  },
 ];
 
 export const minorProjectsData = [
@@ -157,15 +166,15 @@ export const minorProjectsData = [
   //   imageUrl: NymsImg,
   //   url: "https://github.com/csudhtoro/Nyms",
   // },
-  {
-    title: "Portfolio",
-    description:
-      "Personal portfolio site to showcase my experience and skills as a Software Developer.",
-    loginInfo: [],
-    tags: ["React", "Next.js", "Tailwind CSS", "clsx", "Framer Motion"],
-    imageUrl: portfolioImg,
-    url: "https://dana-shorts.dev",
-  },
+  // {
+  //   title: "Portfolio",
+  //   description:
+  //     "Personal portfolio site to showcase my experience and skills as a Software Developer.",
+  //   loginInfo: [],
+  //   tags: ["React", "Next.js", "Tailwind CSS", "clsx", "Framer Motion"],
+  //   imageUrl: portfolioImg,
+  //   url: "https://dana-shorts.dev",
+  // },
   // {
   //   title: "Ration",
   //   description:

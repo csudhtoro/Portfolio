@@ -48,32 +48,34 @@ export default function Projects() {
             <div className="hidden"></div>
           )}
         </div>
-        <div className="w-fit mx-auto my-3 sm:my-8 group outline-none focus:scale-105 hover:scale-105 active:scale-105 cursor-pointer borderBlack/10 transition">
-          <button
-            className=""
-            onClick={() => setShowMoreProjects(!showMoreProjects)}
-          >
-            {showMoreProjects ? (
-              <div className=" text-sm mb-8">
-                <div className="w-full">
-                  <FaChevronUp
-                    size={30}
-                    className="text-gray-900/50 mx-auto group-hover:-translate-y-1 transition opacity-70 dark:text-white/70"
-                  />
+        {minorProjectsData.length > 0 && (
+          <div className="w-fit mx-auto my-3 sm:my-8 group outline-none focus:scale-105 hover:scale-105 active:scale-105 cursor-pointer borderBlack/10 transition">
+            <button
+              className=""
+              onClick={() => setShowMoreProjects(!showMoreProjects)}
+            >
+              {showMoreProjects ? (
+                <div className=" text-sm mb-8">
+                  <div className="w-full">
+                    <FaChevronUp
+                      size={30}
+                      className="text-gray-900/50 mx-auto group-hover:-translate-y-1 transition opacity-70 dark:text-white/70"
+                    />
+                  </div>
                 </div>
-              </div>
-            ) : (
-              <div className="text-sm mb-8">
-                <div className="w-full">
-                  <FaChevronDown
-                    size={30}
-                    className="text-gray-900/50 mx-auto group-hover:translate-y-1 transition opacity-70 dark:text-white/70"
-                  />
+              ) : (
+                <div className="text-sm mb-8">
+                  <div className="w-full">
+                    <FaChevronDown
+                      size={30}
+                      className="text-gray-900/50 mx-auto group-hover:translate-y-1 transition opacity-70 dark:text-white/70"
+                    />
+                  </div>
                 </div>
-              </div>
-            )}
-          </button>
-        </div>
+              )}
+            </button>
+          </div>
+        )}
       </section>
     </div>
   );
