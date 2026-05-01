@@ -66,7 +66,7 @@ export default function Intro() {
         Hello, I'm{" "}
         <span className="font-bold">Dana</span> — a{" "}
         <span className="font-bold">full-stack software engineer</span> with{" "}
-        <span className="font-bold">10+ years</span> owning production systems
+        <span className="font-bold">12+ years</span> owning production systems
         end-to-end. I've delivered measurable gains across mission-critical
         infrastructure serving multiple business units, and independently shipped{" "}
         <span className="font-bold">SaaS products</span> with auth, payments, and
